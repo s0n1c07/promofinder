@@ -1,0 +1,815 @@
+{
+  "schema_version": "1.0",
+  "show_id": "night_line",
+  "episode_number": 2,
+  "platform_episode_id": "900002",
+  "source": {
+    "file": "episode-002-Episode 900002.txt",
+    "sha256": "7266156a31e37be42161fd440b327f7c3f4e946016704e228d25630b1f7f6535",
+    "line_count": 196
+  },
+  "header": {
+    "logline": "With the stranger downstairs and the whole city listening, the station manager orders Nora to stay on air, and the caller turns her questions on Dev.",
+    "continuity_notes": "Continues immediately after the Episode 1 cliffhanger: the caller says she is inside the building.",
+    "follows_episode": 1,
+    "prev_cliffhanger_note": "the caller says she is inside the building."
+  },
+  "duration_s": 96.4,
+  "scenes": [
+    {
+      "scene_id": "E002-S01",
+      "index": 1,
+      "heading": "INT. HARBOR FM – STUDIO B – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – STUDIO B",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 0.0,
+      "end_s": 23.1,
+      "start_tc": "00:00.00",
+      "end_tc": "00:23.10",
+      "block_ids": [
+        "E002-B001",
+        "E002-B002",
+        "E002-B003",
+        "E002-B004",
+        "E002-B005",
+        "E002-B006",
+        "E002-B007",
+        "E002-B008",
+        "E002-B009",
+        "E002-B010"
+      ]
+    },
+    {
+      "scene_id": "E002-S02",
+      "index": 2,
+      "heading": "INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – CONTROL BOOTH",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 23.1,
+      "end_s": 41.0,
+      "start_tc": "00:23.10",
+      "end_tc": "00:41.00",
+      "block_ids": [
+        "E002-B011",
+        "E002-B012",
+        "E002-B013",
+        "E002-B014",
+        "E002-B015",
+        "E002-B016"
+      ]
+    },
+    {
+      "scene_id": "E002-S03",
+      "index": 3,
+      "heading": "INT. HARBOR FM – STUDIO B – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – STUDIO B",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 41.0,
+      "end_s": 96.4,
+      "start_tc": "00:41.00",
+      "end_tc": "01:36.40",
+      "block_ids": [
+        "E002-B017",
+        "E002-B018",
+        "E002-B019",
+        "E002-B020",
+        "E002-B021",
+        "E002-B022",
+        "E002-B023",
+        "E002-B024",
+        "E002-B025",
+        "E002-B026",
+        "E002-B027",
+        "E002-B028",
+        "E002-B029",
+        "E002-B030",
+        "E002-B031",
+        "E002-B032",
+        "E002-B033",
+        "E002-B034",
+        "E002-B035",
+        "E002-B036",
+        "E002-B037",
+        "E002-B038",
+        "E002-B039",
+        "E002-B040",
+        "E002-B041",
+        "E002-B042"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "E002-B001",
+      "index": 1,
+      "scene_id": "E002-S01",
+      "kind": "CAMERA",
+      "start_s": 0.0,
+      "end_s": 3.0,
+      "start_tc": "00:00.00",
+      "end_tc": "00:03.00",
+      "text": "Close-up on Nora in the red glow, frozen at the microphone.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 14
+    },
+    {
+      "block_id": "E002-B002",
+      "index": 2,
+      "scene_id": "E002-S01",
+      "kind": "SOUND_FX",
+      "start_s": 0.3,
+      "end_s": 2.8,
+      "start_tc": "00:00.30",
+      "end_tc": "00:02.80",
+      "text": "The door buzzer sounds again, long and harsh.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 18
+    },
+    {
+      "block_id": "E002-B003",
+      "index": 3,
+      "scene_id": "E002-S01",
+      "kind": "CAMERA",
+      "start_s": 3.0,
+      "end_s": 9.0,
+      "start_tc": "00:03.00",
+      "end_tc": "00:09.00",
+      "text": "Through the glass, Dev slams the side of the flickering security monitor.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 22
+    },
+    {
+      "block_id": "E002-B004",
+      "index": 4,
+      "scene_id": "E002-S01",
+      "kind": "ACTION",
+      "start_s": 3.3,
+      "end_s": 4.8,
+      "start_tc": "00:03.30",
+      "end_tc": "00:04.80",
+      "text": "Dev slams the side of the security monitor.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 26
+    },
+    {
+      "block_id": "E002-B005",
+      "index": 5,
+      "scene_id": "E002-S01",
+      "kind": "DIALOGUE",
+      "start_s": 5.1,
+      "end_s": 8.8,
+      "start_tc": "00:05.10",
+      "end_tc": "00:08.80",
+      "text": "Lobby camera's back. Someone's at the front desk.",
+      "speaker": {
+        "label": "DEV",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "O.S.",
+        "delivery": [
+          "Panicked"
+        ]
+      },
+      "raw_label": "DEV (O.S.) (Panicked)",
+      "source_line": 30
+    },
+    {
+      "block_id": "E002-B006",
+      "index": 6,
+      "scene_id": "E002-S01",
+      "kind": "CAMERA",
+      "start_s": 9.0,
+      "end_s": 13.0,
+      "start_tc": "00:09.00",
+      "end_tc": "00:13.00",
+      "text": "Insert: the grainy monitor shows a woman in a yellow raincoat, hood up, staring into the lens.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 34
+    },
+    {
+      "block_id": "E002-B007",
+      "index": 7,
+      "scene_id": "E002-S01",
+      "kind": "CAMERA",
+      "start_s": 13.0,
+      "end_s": 18.9,
+      "start_tc": "00:13.00",
+      "end_tc": "00:18.90",
+      "text": "Close-up on Nora.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 38
+    },
+    {
+      "block_id": "E002-B008",
+      "index": 8,
+      "scene_id": "E002-S01",
+      "kind": "DIALOGUE",
+      "start_s": 13.3,
+      "end_s": 18.7,
+      "start_tc": "00:13.30",
+      "end_tc": "00:18.70",
+      "text": "Whoever you are, the doors are locked. Talk to me from there.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Steadying",
+          "On Air"
+        ]
+      },
+      "raw_label": "NORA (Steadying, On Air)",
+      "source_line": 42
+    },
+    {
+      "block_id": "E002-B009",
+      "index": 9,
+      "scene_id": "E002-S01",
+      "kind": "CAMERA",
+      "start_s": 18.9,
+      "end_s": 23.1,
+      "start_tc": "00:18.90",
+      "end_tc": "00:23.10",
+      "text": "Close-up on line three, still glowing.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 46
+    },
+    {
+      "block_id": "E002-B010",
+      "index": 10,
+      "scene_id": "E002-S01",
+      "kind": "DIALOGUE",
+      "start_s": 19.2,
+      "end_s": 22.9,
+      "start_tc": "00:19.20",
+      "end_tc": "00:22.90",
+      "text": "You always did talk to people through glass.",
+      "speaker": {
+        "label": "THE CALLER",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "V.O.",
+        "delivery": [
+          "Amused",
+          "Cold"
+        ]
+      },
+      "raw_label": "THE CALLER (V.O.) (Amused, Cold)",
+      "source_line": 50
+    },
+    {
+      "block_id": "E002-B011",
+      "index": 11,
+      "scene_id": "E002-S02",
+      "kind": "CAMERA",
+      "start_s": 23.1,
+      "end_s": 29.4,
+      "start_tc": "00:23.10",
+      "end_tc": "00:29.40",
+      "text": "The booth door bangs open; the station manager strides in, a coat over his pyjamas.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 61
+    },
+    {
+      "block_id": "E002-B012",
+      "index": 12,
+      "scene_id": "E002-S02",
+      "kind": "ACTION",
+      "start_s": 23.4,
+      "end_s": 25.2,
+      "start_tc": "00:23.40",
+      "end_tc": "00:25.20",
+      "text": "The manager barges into the booth, phone in hand.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 65
+    },
+    {
+      "block_id": "E002-B013",
+      "index": 13,
+      "scene_id": "E002-S02",
+      "kind": "DIALOGUE",
+      "start_s": 25.5,
+      "end_s": 29.2,
+      "start_tc": "00:25.50",
+      "end_tc": "00:29.20",
+      "text": "Don't you dare dump this call. We're trending.",
+      "speaker": {
+        "label": "STATION MANAGER",
+        "character_id": null,
+        "alias_hint": "Hollis",
+        "voice": "ON",
+        "delivery": [
+          "Breathless",
+          "Thrilled"
+        ]
+      },
+      "raw_label": "STATION MANAGER (Hollis) (Breathless, Thrilled)",
+      "source_line": 69
+    },
+    {
+      "block_id": "E002-B014",
+      "index": 14,
+      "scene_id": "E002-S02",
+      "kind": "CAMERA",
+      "start_s": 29.4,
+      "end_s": 41.0,
+      "start_tc": "00:29.40",
+      "end_tc": "00:41.00",
+      "text": "Two-shot of Dev and Hollis.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 73
+    },
+    {
+      "block_id": "E002-B015",
+      "index": 15,
+      "scene_id": "E002-S02",
+      "kind": "DIALOGUE",
+      "start_s": 29.7,
+      "end_s": 34.3,
+      "start_tc": "00:29.70",
+      "end_tc": "00:34.30",
+      "text": "There's a stranger in the lobby and you're checking ratings?",
+      "speaker": {
+        "label": "DEV",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Furious"
+        ]
+      },
+      "raw_label": "DEV (Furious)",
+      "source_line": 77
+    },
+    {
+      "block_id": "E002-B016",
+      "index": 16,
+      "scene_id": "E002-S02",
+      "kind": "DIALOGUE",
+      "start_s": 34.6,
+      "end_s": 40.8,
+      "start_tc": "00:34.60",
+      "end_tc": "00:40.80",
+      "text": "There's a stranger in the lobby and forty thousand people listening. Keep her talking.",
+      "speaker": {
+        "label": "STATION MANAGER",
+        "character_id": null,
+        "alias_hint": "Hollis",
+        "voice": "ON",
+        "delivery": [
+          "Cold"
+        ]
+      },
+      "raw_label": "STATION MANAGER (Hollis) (Cold)",
+      "source_line": 81
+    },
+    {
+      "block_id": "E002-B017",
+      "index": 17,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 41.0,
+      "end_s": 45.2,
+      "start_tc": "00:41.00",
+      "end_tc": "00:45.20",
+      "text": "Medium shot of Nora pulling off her headphones and turning to the glass.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 92
+    },
+    {
+      "block_id": "E002-B018",
+      "index": 18,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 41.3,
+      "end_s": 45.0,
+      "start_tc": "00:41.30",
+      "end_tc": "00:45.00",
+      "text": "Dev. How does she have my private number?",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Sharp"
+        ]
+      },
+      "raw_label": "NORA (Sharp)",
+      "source_line": 96
+    },
+    {
+      "block_id": "E002-B019",
+      "index": 19,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 45.2,
+      "end_s": 49.9,
+      "start_tc": "00:45.20",
+      "end_tc": "00:49.90",
+      "text": "Close-up on Dev through the glass, avoiding her eyes.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 100
+    },
+    {
+      "block_id": "E002-B020",
+      "index": 20,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 45.5,
+      "end_s": 49.7,
+      "start_tc": "00:45.50",
+      "end_tc": "00:49.70",
+      "text": "I don't know. It came through the main line.",
+      "speaker": {
+        "label": "DEV",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "O.S.",
+        "delivery": [
+          "Evasive"
+        ]
+      },
+      "raw_label": "DEV (O.S.) (Evasive)",
+      "source_line": 104
+    },
+    {
+      "block_id": "E002-B021",
+      "index": 21,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 49.9,
+      "end_s": 55.8,
+      "start_tc": "00:49.90",
+      "end_tc": "00:55.80",
+      "text": "Close-up on Nora, headphones back on.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 108
+    },
+    {
+      "block_id": "E002-B022",
+      "index": 22,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 50.2,
+      "end_s": 55.6,
+      "start_tc": "00:50.20",
+      "end_tc": "00:55.60",
+      "text": "He's lying, Nora. Ask him why he stopped driving after that night.",
+      "speaker": {
+        "label": "THE CALLER",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "V.O.",
+        "delivery": [
+          "Calm",
+          "Precise"
+        ]
+      },
+      "raw_label": "THE CALLER (V.O.) (Calm, Precise)",
+      "source_line": 112
+    },
+    {
+      "block_id": "E002-B023",
+      "index": 23,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 55.8,
+      "end_s": 58.3,
+      "start_tc": "00:55.80",
+      "end_tc": "00:58.30",
+      "text": "Extreme close-up on Dev's hand gripping the edge of the console.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 116
+    },
+    {
+      "block_id": "E002-B024",
+      "index": 24,
+      "scene_id": "E002-S03",
+      "kind": "SOUND_FX",
+      "start_s": 56.1,
+      "end_s": 58.1,
+      "start_tc": "00:56.10",
+      "end_tc": "00:58.10",
+      "text": "A low string sting.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 120
+    },
+    {
+      "block_id": "E002-B025",
+      "index": 25,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 58.3,
+      "end_s": 63.8,
+      "start_tc": "00:58.30",
+      "end_tc": "01:03.80",
+      "text": "Medium shot of Nora rising from her chair.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 124
+    },
+    {
+      "block_id": "E002-B026",
+      "index": 26,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 58.6,
+      "end_s": 63.6,
+      "start_tc": "00:58.60",
+      "end_tc": "01:03.60",
+      "text": "Dev wasn't there. He was at home. He told the police.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Confused",
+          "Rising Anger"
+        ]
+      },
+      "raw_label": "NORA (Confused, Rising Anger)",
+      "source_line": 128
+    },
+    {
+      "block_id": "E002-B027",
+      "index": 27,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 63.8,
+      "end_s": 70.5,
+      "start_tc": "01:03.80",
+      "end_tc": "01:10.50",
+      "text": "Close-up on the phone console.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 132
+    },
+    {
+      "block_id": "E002-B028",
+      "index": 28,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 64.1,
+      "end_s": 70.3,
+      "start_tc": "01:04.10",
+      "end_tc": "01:10.30",
+      "text": "Then ask him whose car they pulled out of the river the next morning.",
+      "speaker": {
+        "label": "THE CALLER",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "V.O.",
+        "delivery": [
+          "Cold",
+          "Deliberate"
+        ]
+      },
+      "raw_label": "THE CALLER (V.O.) (Cold, Deliberate)",
+      "source_line": 136
+    },
+    {
+      "block_id": "E002-B029",
+      "index": 29,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 70.5,
+      "end_s": 74.0,
+      "start_tc": "01:10.50",
+      "end_tc": "01:14.00",
+      "text": "Slow push-in on Dev through the glass as the colour drains from his face.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 140
+    },
+    {
+      "block_id": "E002-B030",
+      "index": 30,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 74.0,
+      "end_s": 76.6,
+      "start_tc": "01:14.00",
+      "end_tc": "01:16.60",
+      "text": "Close-up on Nora.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 144
+    },
+    {
+      "block_id": "E002-B031",
+      "index": 31,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 74.3,
+      "end_s": 76.4,
+      "start_tc": "01:14.30",
+      "end_tc": "01:16.40",
+      "text": "Dev. Look at me.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Quiet",
+          "Dangerous"
+        ]
+      },
+      "raw_label": "NORA (Quiet, Dangerous)",
+      "source_line": 148
+    },
+    {
+      "block_id": "E002-B032",
+      "index": 32,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 76.6,
+      "end_s": 81.9,
+      "start_tc": "01:16.60",
+      "end_tc": "01:21.90",
+      "text": "Wide shot of the booth: Dev reaching for the door, Hollis blocking it.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 152
+    },
+    {
+      "block_id": "E002-B033",
+      "index": 33,
+      "scene_id": "E002-S03",
+      "kind": "ACTION",
+      "start_s": 76.9,
+      "end_s": 78.9,
+      "start_tc": "01:16.90",
+      "end_tc": "01:18.90",
+      "text": "Dev lunges for the door; Hollis plants a hand on his chest.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 156
+    },
+    {
+      "block_id": "E002-B034",
+      "index": 34,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 79.2,
+      "end_s": 81.7,
+      "start_tc": "01:19.20",
+      "end_tc": "01:21.70",
+      "text": "Nobody leaves while we're live.",
+      "speaker": {
+        "label": "HOLLIS",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Smug"
+        ]
+      },
+      "raw_label": "HOLLIS (Smug)",
+      "source_line": 160
+    },
+    {
+      "block_id": "E002-B035",
+      "index": 35,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 81.9,
+      "end_s": 84.9,
+      "start_tc": "01:21.90",
+      "end_tc": "01:24.90",
+      "text": "Close-up on the security monitor: the lobby is empty, the front door swinging shut.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 164
+    },
+    {
+      "block_id": "E002-B036",
+      "index": 36,
+      "scene_id": "E002-S03",
+      "kind": "SOUND_FX",
+      "start_s": 82.2,
+      "end_s": 83.7,
+      "start_tc": "01:22.20",
+      "end_tc": "01:23.70",
+      "text": "The door buzzer cuts off mid-tone.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 168
+    },
+    {
+      "block_id": "E002-B037",
+      "index": 37,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 84.9,
+      "end_s": 89.1,
+      "start_tc": "01:24.90",
+      "end_tc": "01:29.10",
+      "text": "Close-up on Nora, staring at the monitor through the glass.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 172
+    },
+    {
+      "block_id": "E002-B038",
+      "index": 38,
+      "scene_id": "E002-S03",
+      "kind": "DIALOGUE",
+      "start_s": 85.2,
+      "end_s": 88.9,
+      "start_tc": "01:25.20",
+      "end_tc": "01:28.90",
+      "text": "Second floor, Nora. Third door on the left.",
+      "speaker": {
+        "label": "THE CALLER",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "V.O.",
+        "delivery": [
+          "Whispering",
+          "Close"
+        ]
+      },
+      "raw_label": "THE CALLER (V.O.) (Whispering, Close)",
+      "source_line": 176
+    },
+    {
+      "block_id": "E002-B039",
+      "index": 39,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 89.1,
+      "end_s": 94.9,
+      "start_tc": "01:29.10",
+      "end_tc": "01:34.90",
+      "text": "Slow push-in on the studio door as its handle begins to turn.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 180
+    },
+    {
+      "block_id": "E002-B040",
+      "index": 40,
+      "scene_id": "E002-S03",
+      "kind": "ACTION",
+      "start_s": 89.4,
+      "end_s": 91.9,
+      "start_tc": "01:29.40",
+      "end_tc": "01:31.90",
+      "text": "The studio door handle turns slowly.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 184
+    },
+    {
+      "block_id": "E002-B041",
+      "index": 41,
+      "scene_id": "E002-S03",
+      "kind": "SOUND_FX",
+      "start_s": 92.2,
+      "end_s": 94.7,
+      "start_tc": "01:32.20",
+      "end_tc": "01:34.70",
+      "text": "The synth climbs into a sharp cliffhanger sting.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 188
+    },
+    {
+      "block_id": "E002-B042",
+      "index": 42,
+      "scene_id": "E002-S03",
+      "kind": "CAMERA",
+      "start_s": 94.9,
+      "end_s": 96.4,
+      "start_tc": "01:34.90",
+      "end_tc": "01:36.40",
+      "text": "Cut to black.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 192
+    }
+  ],
+  "warnings": []
+}

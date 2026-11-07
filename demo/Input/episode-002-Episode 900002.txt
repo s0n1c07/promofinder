@@ -1,0 +1,196 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: With the stranger downstairs and the whole city listening, the station manager orders Nora to stay on air, and the caller turns her questions on Dev.
+CONTINUITY NOTES: Continues immediately after the Episode 1 cliffhanger: the caller says she is inside the building.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HARBOR FM – STUDIO B – CONTINUOUS
+Scene start: 00:00.00
+Scene end: 00:23.10
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Close-up on Nora in the red glow, frozen at the microphone.
+
+**SOUND FX:**
+Start: (00:00.30) | End: (00:02.80)
+The door buzzer sounds again, long and harsh.
+
+**CAMERA:**
+Start: (00:03.00) | End: (00:09.00)
+Through the glass, Dev slams the side of the flickering security monitor.
+
+**ACTION:**
+Start: (00:03.30) | End: (00:04.80)
+Dev slams the side of the security monitor.
+
+**DEV (O.S.) (Panicked):**
+Start: (00:05.10) | End: (00:08.80)
+"Lobby camera's back. Someone's at the front desk."
+
+**CAMERA:**
+Start: (00:09.00) | End: (00:13.00)
+Insert: the grainy monitor shows a woman in a yellow raincoat, hood up, staring into the lens.
+
+**CAMERA:**
+Start: (00:13.00) | End: (00:18.90)
+Close-up on Nora.
+
+**NORA (Steadying, On Air):**
+Start: (00:13.30) | End: (00:18.70)
+"Whoever you are, the doors are locked. Talk to me from there."
+
+**CAMERA:**
+Start: (00:18.90) | End: (00:23.10)
+Close-up on line three, still glowing.
+
+**THE CALLER (V.O.) (Amused, Cold):**
+Start: (00:19.20) | End: (00:22.90)
+"You always did talk to people through glass."
+
+SCENE 02
+Scene heading: INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS
+Scene start: 00:23.10
+Scene end: 00:41.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:23.10) | End: (00:29.40)
+The booth door bangs open; the station manager strides in, a coat over his pyjamas.
+
+**ACTION:**
+Start: (00:23.40) | End: (00:25.20)
+The manager barges into the booth, phone in hand.
+
+**STATION MANAGER (Hollis) (Breathless, Thrilled):**
+Start: (00:25.50) | End: (00:29.20)
+"Don't you dare dump this call. We're trending."
+
+**CAMERA:**
+Start: (00:29.40) | End: (00:41.00)
+Two-shot of Dev and Hollis.
+
+**DEV (Furious):**
+Start: (00:29.70) | End: (00:34.30)
+"There's a stranger in the lobby and you're checking ratings?"
+
+**STATION MANAGER (Hollis) (Cold):**
+Start: (00:34.60) | End: (00:40.80)
+"There's a stranger in the lobby and forty thousand people listening. Keep her talking."
+
+SCENE 03
+Scene heading: INT. HARBOR FM – STUDIO B – CONTINUOUS
+Scene start: 00:41.00
+Scene end: 01:36.40
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:41.00) | End: (00:45.20)
+Medium shot of Nora pulling off her headphones and turning to the glass.
+
+**NORA (Sharp):**
+Start: (00:41.30) | End: (00:45.00)
+"Dev. How does she have my private number?"
+
+**CAMERA:**
+Start: (00:45.20) | End: (00:49.90)
+Close-up on Dev through the glass, avoiding her eyes.
+
+**DEV (O.S.) (Evasive):**
+Start: (00:45.50) | End: (00:49.70)
+"I don't know. It came through the main line."
+
+**CAMERA:**
+Start: (00:49.90) | End: (00:55.80)
+Close-up on Nora, headphones back on.
+
+**THE CALLER (V.O.) (Calm, Precise):**
+Start: (00:50.20) | End: (00:55.60)
+"He's lying, Nora. Ask him why he stopped driving after that night."
+
+**CAMERA:**
+Start: (00:55.80) | End: (00:58.30)
+Extreme close-up on Dev's hand gripping the edge of the console.
+
+**SOUND FX:**
+Start: (00:56.10) | End: (00:58.10)
+A low string sting.
+
+**CAMERA:**
+Start: (00:58.30) | End: (01:03.80)
+Medium shot of Nora rising from her chair.
+
+**NORA (Confused, Rising Anger):**
+Start: (00:58.60) | End: (01:03.60)
+"Dev wasn't there. He was at home. He told the police."
+
+**CAMERA:**
+Start: (01:03.80) | End: (01:10.50)
+Close-up on the phone console.
+
+**THE CALLER (V.O.) (Cold, Deliberate):**
+Start: (01:04.10) | End: (01:10.30)
+"Then ask him whose car they pulled out of the river the next morning."
+
+**CAMERA:**
+Start: (01:10.50) | End: (01:14.00)
+Slow push-in on Dev through the glass as the colour drains from his face.
+
+**CAMERA:**
+Start: (01:14.00) | End: (01:16.60)
+Close-up on Nora.
+
+**NORA (Quiet, Dangerous):**
+Start: (01:14.30) | End: (01:16.40)
+"Dev. Look at me."
+
+**CAMERA:**
+Start: (01:16.60) | End: (01:21.90)
+Wide shot of the booth: Dev reaching for the door, Hollis blocking it.
+
+**ACTION:**
+Start: (01:16.90) | End: (01:18.90)
+Dev lunges for the door; Hollis plants a hand on his chest.
+
+**HOLLIS (Smug):**
+Start: (01:19.20) | End: (01:21.70)
+"Nobody leaves while we're live."
+
+**CAMERA:**
+Start: (01:21.90) | End: (01:24.90)
+Close-up on the security monitor: the lobby is empty, the front door swinging shut.
+
+**SOUND FX:**
+Start: (01:22.20) | End: (01:23.70)
+The door buzzer cuts off mid-tone.
+
+**CAMERA:**
+Start: (01:24.90) | End: (01:29.10)
+Close-up on Nora, staring at the monitor through the glass.
+
+**THE CALLER (V.O.) (Whispering, Close):**
+Start: (01:25.20) | End: (01:28.90)
+"Second floor, Nora. Third door on the left."
+
+**CAMERA:**
+Start: (01:29.10) | End: (01:34.90)
+Slow push-in on the studio door as its handle begins to turn.
+
+**ACTION:**
+Start: (01:29.40) | End: (01:31.90)
+The studio door handle turns slowly.
+
+**SOUND FX:**
+Start: (01:32.20) | End: (01:34.70)
+The synth climbs into a sharp cliffhanger sting.
+
+**CAMERA:**
+Start: (01:34.90) | End: (01:36.40)
+Cut to black.
+
+--- SCRIPT END ---

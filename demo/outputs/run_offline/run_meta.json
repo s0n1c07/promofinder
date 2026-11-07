@@ -1,0 +1,67 @@
+{
+  "tool": "promofinder 0.1.0",
+  "judge": "offline",
+  "judge_label": "rules only, no model",
+  "input": "demo\\Input",
+  "config_sha256": "5b89d6f23e23",
+  "lexicon": "lexicons/promo_v1.toml",
+  "episodes": 4,
+  "episodes_judged": "all",
+  "parse_errors": 0,
+  "parse_warnings": 0,
+  "windows_scored": 626,
+  "candidates": 12,
+  "candidates_by_kind": {
+    "single": 9,
+    "tightened": 2,
+    "bridge": 1
+  },
+  "candidates_passing_hard_checks": 12,
+  "duplicates_folded": 3,
+  "promos": 9,
+  "promos_by_kind": {
+    "tightened": 2,
+    "single": 6,
+    "bridge": 1
+  },
+  "episodes_with_promos": 4,
+  "episodes_without_candidates": [],
+  "top_n": 10,
+  "cost": {
+    "llm_calls": 0,
+    "cache_hits": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usd": 0.0,
+    "model_seconds": 0,
+    "model_seconds_per_episode": 0.0,
+    "api_equivalent_usd": {}
+  },
+  "posting_plan": [
+    {
+      "tier": "Cold audiences: the premise (Episodes 1–5, no spoilers)",
+      "promo_ids": [
+        "P001",
+        "P002",
+        "P004"
+      ]
+    },
+    {
+      "tier": "Escalation (Episodes 6–3, no spoilers)",
+      "promo_ids": []
+    },
+    {
+      "tier": "Re-engage viewers who started: late payoffs and spoilers (Episodes 4–4, or a spoiler flag)",
+      "promo_ids": [
+        "P003"
+      ]
+    }
+  ],
+  "timings_s": {
+    "parse": 0.075,
+    "candidates": 0.036,
+    "judge": 0.0,
+    "check_and_rank": 0.002,
+    "export": 0.009
+  }
+}

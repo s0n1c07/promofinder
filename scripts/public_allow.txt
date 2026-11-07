@@ -1,0 +1,7 @@
+# Ordinary words and phrases that scripts/check_public.py flags only because the confidential pack
+# happens to use them in a speaker label, a title or a whole spoken line. Each one was checked by hand.
+# One per line; lines starting with # are notes.
+police
+third
+duke
+what do you mean

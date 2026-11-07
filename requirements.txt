@@ -1,0 +1,5 @@
+# Runtime
+jsonschema>=4.0
+
+# Tests
+pytest>=8

@@ -1,0 +1,6 @@
+# Experiment (M4) baseline: offer the montage call 25 episodes at a time (the first M4 setting).
+# The default is now 10; see eval/FINDINGS.md, "Experiment: smaller montage menus".
+# Run: python -m promofinder run --input Input --judge ollama:qwen3.5:4b
+#        --config config/experiments/montage_menu_25.toml --out outputs/experiments/montage_menu_25
+[multiseg]
+montage_chunk_episodes = 25

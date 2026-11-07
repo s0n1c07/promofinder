@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "episode.schema.json",
+  "title": "ParsedEpisode",
+  "description": "One screenplay episode after deterministic parsing. Every later stage (signals, candidates, LLM judge, QC) reads this, and other tools (recaps, trailers, search) can reuse it. Times are seconds from the start of the episode. See EPISODE_FORMAT.md for the raw format.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "show_id",
+    "episode_number",
+    "source",
+    "header",
+    "duration_s",
+    "scenes",
+    "blocks",
+    "warnings"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "show_id": {
+      "type": "string",
+      "description": "Slug for the show. The input pack holds one show."
+    },
+    "episode_number": { "type": "integer", "minimum": 1 },
+    "platform_episode_id": {
+      "type": ["string", "null"],
+      "description": "Numeric id from the file name, e.g. '1671703' in 'episode-001-Episode 1671703.txt'."
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "sha256", "line_count"],
+      "properties": {
+        "file": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "line_count": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "header": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["logline", "continuity_notes", "follows_episode", "prev_cliffhanger_note"],
+      "properties": {
+        "logline": { "type": "string" },
+        "continuity_notes": { "type": "string" },
+        "follows_episode": {
+          "type": ["integer", "null"],
+          "description": "Episode number named in the continuity notes ('Picks up directly from Episode N ...'); null if none is named."
+        },
+        "prev_cliffhanger_note": {
+          "type": ["string", "null"],
+          "description": "Text after \"Episode N's cliffhanger where\". EVALUATION ONLY: a silver label for episode N's ending. Never sent to the judge model."
+        }
+      }
+    },
+    "duration_s": {
+      "type": "number",
+      "minimum": 0,
+      "description": "End time of the last block, which equals the end of the last scene."
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/scene" }
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "description": "All blocks, sorted by start_s, with index as the tie-breaker.",
+      "items": { "$ref": "#/$defs/block" }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/warning" }
+    }
+  },
+  "$defs": {
+    "timecode": {
+      "type": "string",
+      "pattern": "^\\d{2}:\\d{2}\\.\\d{2}$",
+      "description": "MM:SS.cc, normalised by the parser (identical to the source text for this pack; any other spelling triggers a TIMECODE_FORMAT warning)."
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scene_id",
+        "index",
+        "heading",
+        "int_ext",
+        "location",
+        "time_of_day",
+        "start_s",
+        "end_s",
+        "start_tc",
+        "end_tc",
+        "block_ids"
+      ],
+      "properties": {
+        "scene_id": { "type": "string", "pattern": "^E\\d{3}-S\\d{2}$" },
+        "index": { "type": "integer", "minimum": 1 },
+        "heading": { "type": "string" },
+        "int_ext": {
+          "type": ["string", "null"],
+          "enum": ["INT", "EXT", "INT/EXT", null]
+        },
+        "location": {
+          "type": ["string", "null"],
+          "description": "Heading text between INT./EXT. and the time of day, e.g. 'COTTAGE - PARLOR / WORKROOM'."
+        },
+        "time_of_day": {
+          "type": ["string", "null"],
+          "description": "Last segment of the heading, e.g. DAY, NIGHT, CONTINUOUS, DUSK, MORNING, PRE-DAWN."
+        },
+        "start_s": { "type": "number", "minimum": 0 },
+        "end_s": { "type": "number", "minimum": 0 },
+        "start_tc": { "$ref": "#/$defs/timecode" },
+        "end_tc": { "$ref": "#/$defs/timecode" },
+        "block_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "index",
+        "scene_id",
+        "kind",
+        "start_s",
+        "end_s",
+        "start_tc",
+        "end_tc",
+        "text",
+        "speaker",
+        "raw_label",
+        "source_line"
+      ],
+      "properties": {
+        "block_id": {
+          "type": "string",
+          "pattern": "^E\\d{3}-B\\d{3}$",
+          "description": "Stable id. The only way later stages (the LLM included) refer to a moment; code converts ids to timestamps."
+        },
+        "index": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Position in the source file (1-based)."
+        },
+        "scene_id": { "type": "string", "pattern": "^E\\d{3}-S\\d{2}$" },
+        "kind": { "enum": ["CAMERA", "ACTION", "SOUND_FX", "DIALOGUE"] },
+        "start_s": { "type": "number", "minimum": 0 },
+        "end_s": { "type": "number", "minimum": 0 },
+        "start_tc": { "$ref": "#/$defs/timecode" },
+        "end_tc": { "$ref": "#/$defs/timecode" },
+        "text": {
+          "type": "string",
+          "description": "Block body. For DIALOGUE the surrounding quotes are removed."
+        },
+        "speaker": {
+          "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/speaker" }],
+          "description": "Present only when kind is DIALOGUE."
+        },
+        "raw_label": {
+          "type": "string",
+          "description": "Label exactly as written between ** and :**, e.g. 'MATRIARCH (O.S.) (Firm)'."
+        },
+        "source_line": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "1-based line of the **LABEL:** line in the source file."
+        }
+      }
+    },
+    "speaker": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "character_id", "alias_hint", "voice", "delivery"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "Speaker label as written, e.g. 'NORA', 'STATION MANAGER'. Not a canonical name."
+        },
+        "character_id": {
+          "type": ["string", "null"],
+          "description": "Canonical character after alias resolution. Null when the episode is first parsed; filled in by the alias step."
+        },
+        "alias_hint": {
+          "type": ["string", "null"],
+          "description": "Name given inside the label, e.g. 'Hollis' in 'STATION MANAGER (Hollis) (Decisive)'."
+        },
+        "voice": {
+          "enum": ["ON", "O.S.", "V.O."],
+          "description": "ON = speaking on screen. '(Off-screen)' is stored as O.S."
+        },
+        "delivery": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Delivery or emotion tags split on commas, e.g. ['Cold', 'Commanding']."
+        }
+      }
+    },
+    "warning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "line"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Machine-readable code, e.g. UPPERCASE_SCENE_KEYS, BLOCK_OUTSIDE_SCENE, START_OUT_OF_ORDER."
+        },
+        "message": { "type": "string" },
+        "line": { "type": ["integer", "null"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,835 @@
+[
+  {
+    "candidate_id": "E001-C01",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 1,
+        "start_s": 53.2,
+        "end_s": 85.8
+      }
+    ],
+    "hook_block": "E001-B026",
+    "cliff_block": "E001-B039",
+    "rule_scores": {
+      "hook": 0.735,
+      "cliffhanger": 1.0,
+      "standalone": 0.95,
+      "pacing": 0.753,
+      "length": 1.0,
+      "total": 0.873
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "reveal",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "DEV",
+        "NORA",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.6,
+      "longest_quiet_s": 4.0,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 32.6,
+    "judgement": {
+      "candidate_id": "E001-C01",
+      "judge": "offline",
+      "hook_block": "E001-B026",
+      "hook_score": 0.735,
+      "cliff_block": "E001-B039",
+      "cliff_score": 1.0,
+      "standalone_score": 0.95,
+      "why_it_works": "Opens on a reveal 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "reveal",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 2
+  },
+  {
+    "candidate_id": "E002-C01",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 2,
+        "start_s": 3.0,
+        "end_s": 58.3
+      }
+    ],
+    "hook_block": "E002-B004",
+    "cliff_block": "E002-B024",
+    "rule_scores": {
+      "hook": 0.79,
+      "cliffhanger": 0.942,
+      "standalone": 0.85,
+      "pacing": 0.748,
+      "length": 0.863,
+      "total": 0.847
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "physical",
+      "skipped_hook": 0.1,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "DEV",
+        "NORA",
+        "STATION MANAGER",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.73,
+      "longest_quiet_s": 4.5,
+      "clean_in": true,
+      "clean_out": true,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.3,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 55.3,
+    "judgement": {
+      "candidate_id": "E002-C01",
+      "judge": "offline",
+      "hook_block": "E002-B004",
+      "hook_score": 0.79,
+      "cliff_block": "E002-B024",
+      "cliff_score": 0.942,
+      "standalone_score": 0.85,
+      "why_it_works": "Opens on a physical shock 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "cruelty",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 4
+  },
+  {
+    "candidate_id": "E002-C02",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 2,
+        "start_s": 76.4,
+        "end_s": 96.4
+      }
+    ],
+    "hook_block": "E002-B034",
+    "cliff_block": "E002-B041",
+    "rule_scores": {
+      "hook": 0.654,
+      "cliffhanger": 1.0,
+      "standalone": 0.95,
+      "pacing": 0.618,
+      "length": 0.8,
+      "total": 0.821
+    },
+    "features": {
+      "hook_onset_s": 2.8,
+      "hook_group": "humiliation",
+      "skipped_hook": 0.36,
+      "cliff_reasons": [
+        "explicit",
+        "episode ending"
+      ],
+      "speakers": [
+        "HOLLIS",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.31,
+      "longest_quiet_s": 3.5,
+      "clean_in": false,
+      "clean_out": true,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": true,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 20.0,
+    "judgement": {
+      "candidate_id": "E002-C02",
+      "judge": "offline",
+      "hook_block": "E002-B034",
+      "hook_score": 0.654,
+      "cliff_block": "E002-B041",
+      "cliff_score": 1.0,
+      "standalone_score": 0.95,
+      "why_it_works": "Opens on public humiliation 2.8s in and cuts on a cliffhanger sting.",
+      "trope": "betrayal",
+      "flags": [
+        "slow_start"
+      ],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 6
+  },
+  {
+    "candidate_id": "E002-T01",
+    "kind": "tightened",
+    "segments": [
+      {
+        "episode": 2,
+        "start_s": 3.0,
+        "end_s": 13.3
+      },
+      {
+        "episode": 2,
+        "start_s": 84.9,
+        "end_s": 94.7
+      }
+    ],
+    "hook_block": "E002-B004",
+    "cliff_block": "E002-B041",
+    "rule_scores": {
+      "hook": 0.79,
+      "cliffhanger": 1.0,
+      "standalone": 0.7,
+      "pacing": 0.782,
+      "length": 0.804,
+      "total": 0.835
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "physical",
+      "skipped_hook": 0.1,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "DEV",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.37,
+      "longest_quiet_s": 0.3,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "parts": 2
+    },
+    "source": "rules",
+    "duration_s": 20.1,
+    "judgement": {
+      "candidate_id": "E002-T01",
+      "judge": "offline",
+      "hook_block": "E002-B004",
+      "hook_score": 0.79,
+      "cliff_block": "E002-B041",
+      "cliff_score": 1.0,
+      "standalone_score": 0.7,
+      "why_it_works": "Opens on a physical shock 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "cruelty",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 7
+  },
+  {
+    "candidate_id": "E003-C01",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 3,
+        "start_s": 50.5,
+        "end_s": 75.5
+      }
+    ],
+    "hook_block": "E003-B025",
+    "cliff_block": "E003-B033",
+    "rule_scores": {
+      "hook": 0.83,
+      "cliffhanger": 1.0,
+      "standalone": 1.0,
+      "pacing": 0.8,
+      "length": 1.0,
+      "total": 0.92
+    },
+    "features": {
+      "hook_onset_s": 2.3,
+      "hook_group": "physical",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "HOLLIS",
+        "MAYA",
+        "NORA"
+      ],
+      "speech_ratio": 0.68,
+      "longest_quiet_s": 3.7,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 25.0,
+    "judgement": {
+      "candidate_id": "E003-C01",
+      "judge": "offline",
+      "hook_block": "E003-B025",
+      "hook_score": 0.83,
+      "cliff_block": "E003-B033",
+      "cliff_score": 1.0,
+      "standalone_score": 1.0,
+      "why_it_works": "Opens on a physical shock 2.3s in and cuts on a cliffhanger sting.",
+      "trope": "cruelty",
+      "flags": [
+        "slow_start"
+      ],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 5
+  },
+  {
+    "candidate_id": "E003-C02",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 3,
+        "start_s": 6.0,
+        "end_s": 34.7
+      }
+    ],
+    "hook_block": "E003-B006",
+    "cliff_block": "E003-B015",
+    "rule_scores": {
+      "hook": 1.0,
+      "cliffhanger": 0.38,
+      "standalone": 1.0,
+      "pacing": 0.762,
+      "length": 1.0,
+      "total": 0.79
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "reveal",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "beat"
+      ],
+      "speakers": [
+        "MAYA",
+        "NORA",
+        "WOMAN IN YELLOW RAINCOAT"
+      ],
+      "speech_ratio": 0.74,
+      "longest_quiet_s": 0.9,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 28.7,
+    "judgement": {
+      "candidate_id": "E003-C02",
+      "judge": "offline",
+      "hook_block": "E003-B006",
+      "hook_score": 1.0,
+      "cliff_block": "E003-B015",
+      "cliff_score": 0.38,
+      "standalone_score": 1.0,
+      "why_it_works": "Opens on a reveal 0.3s in and cuts on an unresolved beat.",
+      "trope": "reveal",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 8
+  },
+  {
+    "candidate_id": "E003-C03",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 3,
+        "start_s": 42.5,
+        "end_s": 75.5
+      }
+    ],
+    "hook_block": "E003-B019",
+    "cliff_block": "E003-B033",
+    "rule_scores": {
+      "hook": 0.79,
+      "cliffhanger": 1.0,
+      "standalone": 0.9,
+      "pacing": 0.825,
+      "length": 1.0,
+      "total": 0.889
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "physical",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "DEV",
+        "HOLLIS",
+        "MAYA",
+        "NORA"
+      ],
+      "speech_ratio": 0.67,
+      "longest_quiet_s": 3.7,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": true
+    },
+    "source": "rules",
+    "duration_s": 33.0,
+    "judgement": {
+      "candidate_id": "E003-C03",
+      "judge": "offline",
+      "hook_block": "E003-B019",
+      "hook_score": 0.79,
+      "cliff_block": "E003-B033",
+      "cliff_score": 1.0,
+      "standalone_score": 0.9,
+      "why_it_works": "Opens on a physical shock 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "cruelty",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "duplicate",
+    "duplicate_of": "E003-C01"
+  },
+  {
+    "candidate_id": "E003-T01",
+    "kind": "tightened",
+    "segments": [
+      {
+        "episode": 3,
+        "start_s": 6.0,
+        "end_s": 16.9
+      },
+      {
+        "episode": 3,
+        "start_s": 64.0,
+        "end_s": 75.5
+      }
+    ],
+    "hook_block": "E003-B006",
+    "cliff_block": "E003-B033",
+    "rule_scores": {
+      "hook": 1.0,
+      "cliffhanger": 1.0,
+      "standalone": 0.75,
+      "pacing": 0.768,
+      "length": 0.896,
+      "total": 0.922
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "reveal",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "explicit"
+      ],
+      "speakers": [
+        "MAYA",
+        "NORA",
+        "WOMAN IN YELLOW RAINCOAT"
+      ],
+      "speech_ratio": 0.74,
+      "longest_quiet_s": 0.9,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "parts": 2
+    },
+    "source": "rules",
+    "duration_s": 22.4,
+    "judgement": {
+      "candidate_id": "E003-T01",
+      "judge": "offline",
+      "hook_block": "E003-B006",
+      "hook_score": 1.0,
+      "cliff_block": "E003-B033",
+      "cliff_score": 1.0,
+      "standalone_score": 0.75,
+      "why_it_works": "Opens on a reveal 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "reveal",
+      "flags": [],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 1
+  },
+  {
+    "candidate_id": "E003-X01",
+    "kind": "bridge",
+    "segments": [
+      {
+        "episode": 2,
+        "start_s": 79.2,
+        "end_s": 96.4
+      },
+      {
+        "episode": 3,
+        "start_s": 0.0,
+        "end_s": 7.9
+      }
+    ],
+    "hook_block": "E002-B034",
+    "cliff_block": "E003-B006",
+    "rule_scores": {
+      "hook": 0.798,
+      "cliffhanger": 1.0,
+      "standalone": 0.7,
+      "pacing": 0.642,
+      "length": 1.0,
+      "total": 0.833
+    },
+    "features": {
+      "hook_onset_s": 0.0,
+      "hook_group": "humiliation",
+      "skipped_hook": 0.09,
+      "cliff_reasons": [
+        "revelation",
+        "unanswered question"
+      ],
+      "speakers": [
+        "HOLLIS",
+        "NORA",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.31,
+      "longest_quiet_s": 3.5,
+      "clean_in": false,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": "Who are you?",
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "parts": 2
+    },
+    "source": "rules",
+    "duration_s": 25.1,
+    "judgement": {
+      "candidate_id": "E003-X01",
+      "judge": "offline",
+      "hook_block": "E002-B034",
+      "hook_score": 0.798,
+      "cliff_block": "E003-B006",
+      "cliff_score": 1.0,
+      "standalone_score": 0.7,
+      "why_it_works": "Opens on public humiliation 0.0s in and cuts on an unanswered question.",
+      "trope": "betrayal",
+      "flags": [],
+      "open_question": "Who are you?",
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 9
+  },
+  {
+    "candidate_id": "E004-C01",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 4,
+        "start_s": 19.5,
+        "end_s": 76.4
+      }
+    ],
+    "hook_block": "E004-B010",
+    "cliff_block": "E004-B036",
+    "rule_scores": {
+      "hook": 0.998,
+      "cliffhanger": 1.0,
+      "standalone": 0.75,
+      "pacing": 0.512,
+      "length": 0.841,
+      "total": 0.893
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "humiliation",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "explicit",
+        "episode ending"
+      ],
+      "speakers": [
+        "DEV",
+        "MAYA",
+        "NORA",
+        "OFFICER REYES",
+        "THE CALLER"
+      ],
+      "speech_ratio": 0.53,
+      "longest_quiet_s": 8.2,
+      "clean_in": true,
+      "clean_out": true,
+      "cut_out_mid_action": false,
+      "open_question": null,
+      "episode_end": true,
+      "mid_exchange_start": false,
+      "released_at_end": 0.22,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 56.9,
+    "judgement": {
+      "candidate_id": "E004-C01",
+      "judge": "offline",
+      "hook_block": "E004-B010",
+      "hook_score": 0.998,
+      "cliff_block": "E004-B036",
+      "cliff_score": 1.0,
+      "standalone_score": 0.75,
+      "why_it_works": "Opens on public humiliation 0.3s in and cuts on a cliffhanger sting.",
+      "trope": "betrayal",
+      "flags": [
+        "many_speakers"
+      ],
+      "open_question": null,
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "ranked",
+    "rank": 3
+  },
+  {
+    "candidate_id": "E004-C02",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 4,
+        "start_s": 3.4,
+        "end_s": 26.6
+      }
+    ],
+    "hook_block": "E004-B004",
+    "cliff_block": "E004-B011",
+    "rule_scores": {
+      "hook": 0.498,
+      "cliffhanger": 0.796,
+      "standalone": 1.0,
+      "pacing": 0.72,
+      "length": 0.928,
+      "total": 0.732
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "threat",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "arrival",
+        "unanswered question"
+      ],
+      "speakers": [
+        "DEV",
+        "NORA",
+        "OFFICER REYES"
+      ],
+      "speech_ratio": 0.77,
+      "longest_quiet_s": 0.6,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": "Which one of you is Dev Marsh?",
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": false
+    },
+    "source": "rules",
+    "duration_s": 23.2,
+    "judgement": {
+      "candidate_id": "E004-C02",
+      "judge": "offline",
+      "hook_block": "E004-B004",
+      "hook_score": 0.498,
+      "cliff_block": "E004-B011",
+      "cliff_score": 0.796,
+      "standalone_score": 1.0,
+      "why_it_works": "Opens on a threat 0.3s in and cuts on an unanswered question.",
+      "trope": "danger",
+      "flags": [],
+      "open_question": "Which one of you is Dev Marsh?",
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "duplicate",
+    "duplicate_of": "E004-C01"
+  },
+  {
+    "candidate_id": "E004-C03",
+    "kind": "single",
+    "segments": [
+      {
+        "episode": 4,
+        "start_s": 13.5,
+        "end_s": 56.9
+      }
+    ],
+    "hook_block": "E004-B006",
+    "cliff_block": "E004-B026",
+    "rule_scores": {
+      "hook": 0.79,
+      "cliffhanger": 0.731,
+      "standalone": 0.9,
+      "pacing": 0.662,
+      "length": 1.0,
+      "total": 0.792
+    },
+    "features": {
+      "hook_onset_s": 0.3,
+      "hook_group": "physical",
+      "skipped_hook": 0.0,
+      "cliff_reasons": [
+        "threat",
+        "unanswered question"
+      ],
+      "speakers": [
+        "DEV",
+        "MAYA",
+        "NORA",
+        "OFFICER REYES"
+      ],
+      "speech_ratio": 0.65,
+      "longest_quiet_s": 4.8,
+      "clean_in": true,
+      "clean_out": false,
+      "cut_out_mid_action": false,
+      "open_question": "What?",
+      "episode_end": false,
+      "mid_exchange_start": false,
+      "released_at_end": 0.0,
+      "graphic": false,
+      "context_debt": 0.0,
+      "extra_anchor": true
+    },
+    "source": "rules",
+    "duration_s": 43.4,
+    "judgement": {
+      "candidate_id": "E004-C03",
+      "judge": "offline",
+      "hook_block": "E004-B006",
+      "hook_score": 0.79,
+      "cliff_block": "E004-B026",
+      "cliff_score": 0.731,
+      "standalone_score": 0.9,
+      "why_it_works": "Opens on a physical shock 0.3s in and cuts on an unanswered question.",
+      "trope": "cruelty",
+      "flags": [],
+      "open_question": "What?",
+      "missing_context": null,
+      "trim_start_block": null,
+      "trim_end_block": null,
+      "detail": {}
+    },
+    "status": "duplicate",
+    "duplicate_of": "E004-C01"
+  }
+]

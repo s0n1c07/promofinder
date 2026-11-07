@@ -1,0 +1,172 @@
+{
+  "tool": "promofinder 0.1.0",
+  "judge": "ollama:qwen3.5:4b",
+  "judge_label": "ollama:qwen3.5:4b, prompt judge_v2, scores 70% model + 30% rules",
+  "input": "demo\\Input",
+  "config_sha256": "5b89d6f23e23",
+  "lexicon": "lexicons/promo_v1.toml",
+  "episodes": 4,
+  "episodes_judged": "all",
+  "parse_errors": 0,
+  "parse_warnings": 0,
+  "windows_scored": 626,
+  "candidates": 13,
+  "candidates_by_kind": {
+    "single": 9,
+    "tightened": 2,
+    "bridge": 1,
+    "montage": 1
+  },
+  "candidates_passing_hard_checks": 13,
+  "duplicates_folded": 3,
+  "promos": 10,
+  "promos_by_kind": {
+    "single": 6,
+    "tightened": 2,
+    "montage": 1,
+    "bridge": 1
+  },
+  "episodes_with_promos": 4,
+  "episodes_without_candidates": [],
+  "top_n": 10,
+  "cost": {
+    "llm_calls": 5,
+    "cache_hits": 0,
+    "input_tokens": 10773,
+    "output_tokens": 1887,
+    "usd": 0.0,
+    "model_seconds": 543.0,
+    "model_seconds_per_episode": 113.5,
+    "api_equivalent_usd": {
+      "claude-haiku-5-5": 0.002,
+      "claude-sonnet-5-5": 0.0404,
+      "claude-opus-5-5": 0.0808
+    }
+  },
+  "llm": {
+    "model": {
+      "provider": "ollama",
+      "model": "qwen3.5:4b",
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "quantization": "Q4_K_M",
+      "options": {
+        "temperature": 0.0,
+        "seed": 7,
+        "num_ctx": 8192,
+        "num_predict": 2048
+      },
+      "think": false
+    },
+    "prompt": "judge_v2",
+    "episodes_failed": [],
+    "proposals": {
+      "made": 0,
+      "built": 0,
+      "not_built": {},
+      "log": []
+    },
+    "grounding": {
+      "judgements_from_model": 13,
+      "why_lines_with_unverified_quotes": 0,
+      "why_lines_quoting_outside_their_clip": 0,
+      "why_lines_cut_to_length": 0,
+      "questions_dropped": 0
+    },
+    "judge_disagrees_with_rules": 2,
+    "model_score_counts": {
+      "hook": {
+        "2": 1,
+        "3": 2,
+        "4": 5,
+        "5": 5
+      },
+      "cliff": {
+        "2": 1,
+        "3": 1,
+        "4": 6,
+        "5": 5
+      },
+      "standalone": {
+        "1": 3,
+        "2": 5,
+        "3": 4,
+        "4": 1
+      }
+    },
+    "montages": {
+      "proposed": 3,
+      "built": 1,
+      "not_built": {
+        "beats are not in story order": 2
+      },
+      "log": [
+        {
+          "call": 1,
+          "beats": [
+            "E004-B034",
+            "E001-B026"
+          ],
+          "status": "not built",
+          "reason": "beats are not in story order"
+        },
+        {
+          "call": 1,
+          "beats": [
+            "E003-B023",
+            "E002-B022"
+          ],
+          "status": "not built",
+          "reason": "beats are not in story order"
+        },
+        {
+          "call": 1,
+          "beats": [
+            "E001-B026",
+            "E003-B032"
+          ],
+          "status": "built",
+          "candidate_id": "M01-03",
+          "segments": [
+            [
+              1,
+              53.2,
+              59.0
+            ],
+            [
+              3,
+              60.8,
+              76.2
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "posting_plan": [
+    {
+      "tier": "Cold audiences: the premise (Episodes 1–5, no spoilers)",
+      "promo_ids": [
+        "P001",
+        "P002",
+        "P003"
+      ]
+    },
+    {
+      "tier": "Escalation (Episodes 6–3, no spoilers)",
+      "promo_ids": []
+    },
+    {
+      "tier": "Re-engage viewers who started: late payoffs and spoilers (Episodes 4–4, or a spoiler flag)",
+      "promo_ids": [
+        "P006"
+      ]
+    }
+  ],
+  "timings_s": {
+    "parse": 4.471,
+    "candidates": 0.043,
+    "judge": 543.043,
+    "check_and_rank": 0.002,
+    "export": 0.017
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "episode": 1,
+  "judge": "ollama:qwen3.5:4b",
+  "prompt": "judge_v2",
+  "system_prompt_sha256": "717999333639",
+  "user_prompt": "EPISODE 1 (89 s)\n\n== Scene 1: INT. HARBOR FM – STUDIO B – NIGHT ==\nB001 0-3.5 [camera] Extreme close-up of a red ON AIR sign flickering to life in the dark.\nB002 0.3-3.3 [sound] A low synth drone hums under soft radio static.\nB003 3.5-10.2 [camera] Medium shot of Nora at the microphone, headphones on, a mug of coffee going cold.\nB004 3.8-10 NORA (Warm, Unhurried): It's two in the morning, this is Night Line, and the lines are open.\nB005 10.2-13.2 [camera] Through the booth glass, Dev raises a hand and points at line three.\nB006 10.5-12.3 [action] Dev taps a blinking button on the phone console.\nB007 13.2-18.7 [camera] Close-up on Nora, smiling into the microphone.\nB008 13.5-18.5 NORA (Warm): Line three, you're on the air. What's keeping you up tonight?\nB009 18.7-24.2 [camera] Slow push-in on Nora as she listens.\nB010 19-24 THE CALLER [V.O.] (Calm, Cold): You are, Nora. You've been keeping me up for ten years.\nB011 24.2-27.2 [camera] Close-up on Nora's hand, frozen above the fader.\nB012 24.5-27 NORA (Thrown, Polite): I'm sorry, have we met?\nB013 27.2-33.9 [camera] Close-up on the phone console, line three glowing.\nB014 27.5-33.7 THE CALLER [V.O.] (Calm, Precise): The night of the flood. The old bridge on Mill Road. You were there.\nB015 33.9-37.4 [camera] Extreme close-up on Nora's eyes.\nB016 34.2-37.2 [sound] The drone drops to a low, ominous pulse.\nB017 37.4-41.2 [camera] Through the glass, Dev leans into the talkback microphone.\nB018 37.7-41 DEV [O.S.] (Urgent, Whispering): Dump the call. Nora, dump it now.\nB019 41.2-46.7 [camera] Medium shot of Nora reaching for the cut switch.\nB020 41.5-46.5 THE CALLER [V.O.] (Cold, Threatening): Cut me off, and my next call is to the police.\nB021 46.7-49.7 [camera] Close-up on Nora's finger trembling above the switch.\nB022 47-48.8 [action] Nora pulls her hand back from the switch.\nB023 49.7-53.2 [camera] Two-shot through the glass: Nora and Dev staring at each other.\nB024 50-52.9 NORA (Shaken, Quiet): What do you want from me?\nB025 53.2-58.7 [camera] Close-up on the level meters jumping on the console.\nB026 53.5-58.5 THE CALLER [V.O.] (Calm, Cold): The truth. Live. Tell them who you left on that bridge.\nB027 58.7-64.6 [camera] Close-up on Nora, her breath catching.\nB028 59-64.4 NORA (Defiant, Shaking): I didn't leave anyone. I was seventeen. I jumped in after her.\nB029 64.6-68.1 [camera] Wide shot of the studio as every phone line on the console starts to blink.\nB030 64.9-67.9 [sound] A chorus of phone lines rings at once.\nB031 68.1-71.9 [camera] Through the glass, Dev stares at his screen.\nB032 68.4-71.7 DEV [O.S.] (Stunned): Nora, the switchboard's full. Everyone is listening.\nB033 71.9-75.7 [camera] Close-up on Nora.\nB034 72.2-75.5 THE CALLER [V.O.] (Soft, Menacing): Good. Because I'm not calling from home.\nB035 75.7-79.7 [camera] Slow push-in on the studio door behind Nora; its small window is dark.\nB036 76-78.5 THE CALLER [V.O.] (Whispering): I'm in the building, Nora.\nB037 79.7-86 [camera] Wide shot of the corridor beyond the door as its lights go out one by one.\nB038 80-82.5 [action] The corridor lights go out one by one.\nB039 82.8-85.8 [sound] A door buzzer sounds downstairs, and a hard cliffhanger sting cuts the hum dead.\nB040 86-89 [camera] Extreme close-up on Nora's face, lit only by the red ON AIR sign. Cut to black.\n\nCLIPS\nC1: 53.2-85.8 s (32.6 s). Hook options: B025, B026. Ending options: B037, B038, B039.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "clips": {
+        "type": "object",
+        "properties": {
+          "C1": {
+            "type": "object",
+            "properties": {
+              "hook_block": {
+                "type": "string",
+                "enum": [
+                  "B025",
+                  "B026"
+                ]
+              },
+              "hook": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              "cliff_block": {
+                "type": "string",
+                "enum": [
+                  "B037",
+                  "B038",
+                  "B039"
+                ]
+              },
+              "question": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "cliff": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              "standalone": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              "trope": {
+                "type": "string",
+                "enum": [
+                  "betrayal",
+                  "reveal",
+                  "rescue",
+                  "cruelty",
+                  "danger",
+                  "romance",
+                  "revenge",
+                  "scheme"
+                ]
+              },
+              "flags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "graphic",
+                    "spoiler",
+                    "confusing",
+                    "resolves_at_end",
+                    "context_needed"
+                  ]
+                },
+                "maxItems": 5
+              },
+              "why": {
+                "type": "string",
+                "maxLength": 220
+              }
+            },
+            "required": [
+              "hook_block",
+              "hook",
+              "cliff_block",
+              "question",
+              "cliff",
+              "standalone",
+              "trope",
+              "flags",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "C1"
+        ],
+        "additionalProperties": false
+      },
+      "missed": {
+        "type": "array",
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "properties": {
+            "hook_block": {
+              "type": "string",
+              "enum": [
+                "B001",
+                "B002",
+                "B003",
+                "B004",
+                "B005",
+                "B006",
+                "B007",
+                "B008",
+                "B009",
+                "B010",
+                "B011",
+                "B012",
+                "B013",
+                "B014",
+                "B015",
+                "B016",
+                "B017",
+                "B018",
+                "B019",
+                "B020",
+                "B021",
+                "B022",
+                "B023",
+                "B024",
+                "B025",
+                "B026",
+                "B027",
+                "B028",
+                "B029",
+                "B030",
+                "B031",
+                "B032",
+                "B033",
+                "B034",
+                "B035",
+                "B036",
+                "B037",
+                "B038",
+                "B039",
+                "B040"
+              ]
+            },
+            "hook": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "cliff_block": {
+              "type": "string",
+              "enum": [
+                "B001",
+                "B002",
+                "B003",
+                "B004",
+                "B005",
+                "B006",
+                "B007",
+                "B008",
+                "B009",
+                "B010",
+                "B011",
+                "B012",
+                "B013",
+                "B014",
+                "B015",
+                "B016",
+                "B017",
+                "B018",
+                "B019",
+                "B020",
+                "B021",
+                "B022",
+                "B023",
+                "B024",
+                "B025",
+                "B026",
+                "B027",
+                "B028",
+                "B029",
+                "B030",
+                "B031",
+                "B032",
+                "B033",
+                "B034",
+                "B035",
+                "B036",
+                "B037",
+                "B038",
+                "B039",
+                "B040"
+              ]
+            },
+            "question": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "cliff": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "standalone": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "trope": {
+              "type": "string",
+              "enum": [
+                "betrayal",
+                "reveal",
+                "rescue",
+                "cruelty",
+                "danger",
+                "romance",
+                "revenge",
+                "scheme"
+              ]
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "graphic",
+                  "spoiler",
+                  "confusing",
+                  "resolves_at_end",
+                  "context_needed"
+                ]
+              },
+              "maxItems": 5
+            },
+            "why": {
+              "type": "string",
+              "maxLength": 220
+            }
+          },
+          "required": [
+            "hook_block",
+            "hook",
+            "cliff_block",
+            "question",
+            "cliff",
+            "standalone",
+            "trope",
+            "flags",
+            "why"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "clips",
+      "missed"
+    ],
+    "additionalProperties": false
+  },
+  "response_text": "{\n  \"clips\": {\n    \"C1\": {\n      \"hook_block\": \"B026\",\n      \"hook\": 5,\n      \"cliff_block\": \"B039\",\n      \"question\": \"Will the intruder kill her before she can speak?\",\n      \"cliff\": 5,\n      \"standalone\": 4,\n      \"trope\": \"danger\",\n      \"flags\": [\n        \"graphic\",\n        \"context_needed\"\n      ],\n      \"why\": \"The threat of a live broadcast and an intruder creates immediate life-or-death stakes.\"\n    }\n  },\n  \"missed\": []\n}",
+  "usage": {
+    "episode": 1,
+    "ok": true,
+    "input_tokens": 2112,
+    "output_tokens": 151,
+    "seconds": 54.89,
+    "compute_seconds": 54.89,
+    "cached": false,
+    "finish": "stop",
+    "timing": {
+      "load_s": 0.01,
+      "prompt_s": 28.69,
+      "generate_s": 24.0
+    }
+  }
+}

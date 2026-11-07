@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "segment_count": "has 1 to 3 segments",
+    "segment_bounds": "every segment lies inside its episode and lasts at least 3 s",
+    "safe_cuts": "no segment starts or ends inside a spoken line",
+    "story_order": "segments are in story order and do not overlap",
+    "duration": "total length is 20-60 s",
+    "ids_exist": "the hook and cliffhanger block ids exist",
+    "hook_onset": "the hook beat starts within 3 s of the promo start",
+    "cliff_inside": "the cliffhanger beat starts inside the last segment"
+  },
+  "candidates_checked": 13,
+  "passed": 13,
+  "dropped": 0,
+  "dropped_by_rule": {},
+  "dropped_candidates": [],
+  "final_promos": 10,
+  "final_promos_failing_recheck": []
+}

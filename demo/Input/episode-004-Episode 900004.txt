@@ -1,0 +1,183 @@
+EPISODE NUMBER: Episode 4
+EPISODE LOGLINE: Nora tells the city the truth before the police reach the booth, then learns the woman in the raincoat never made the call.
+CONTINUITY NOTES: Continues immediately after the Episode 3 cliffhanger: Hollis threatens Nora as the police arrive.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS
+Scene start: 00:00.00
+Scene end: 00:19.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.40)
+Close-up on Nora's hand on the master fader.
+
+**NORA (Steady, Resolute):**
+Start: (00:00.30) | End: (00:03.20)
+"Night Line listeners, stay with me."
+
+**CAMERA:**
+Start: (00:03.40) | End: (00:13.50)
+Medium shot of Nora leaning into the booth microphone.
+
+**NORA (Clear, Resolute):**
+Start: (00:03.70) | End: (00:13.30)
+"The man who owns this station paid to bury a crash that nearly killed a girl. She is standing next to me."
+
+**CAMERA:**
+Start: (00:13.50) | End: (00:16.00)
+Close-up on Hollis lunging for the console.
+
+**ACTION:**
+Start: (00:13.80) | End: (00:15.80)
+Hollis grabs for the fader; Dev shoves him back against the wall.
+
+**CAMERA:**
+Start: (00:16.00) | End: (00:19.50)
+Close-up on Dev holding Hollis in place.
+
+**DEV (Shaking, Resolute):**
+Start: (00:16.30) | End: (00:19.20)
+"It's over. I'll tell them myself."
+
+SCENE 02
+Scene heading: INT. HARBOR FM – STAIRWELL – CONTINUOUS
+Scene start: 00:19.50
+Scene end: 00:22.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:19.50) | End: (00:22.50)
+Police flashlights sweep up the stairwell.
+
+**OFFICER REYES (O.S.) (Commanding):**
+Start: (00:19.80) | End: (00:21.90)
+"Harbor Police! Nobody move!"
+
+SCENE 03
+Scene heading: INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS
+Scene start: 00:22.50
+Scene end: 00:42.10
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:22.50) | End: (00:26.30)
+Wide shot as Officer Reyes enters the booth, a hand on her radio.
+
+**OFFICER REYES (Firm):**
+Start: (00:22.80) | End: (00:26.10)
+"Which one of you is Dev Marsh?"
+
+**CAMERA:**
+Start: (00:26.30) | End: (00:31.00)
+Close-up on Dev raising his hands.
+
+**DEV (Quiet, Broken):**
+Start: (00:26.60) | End: (00:30.80)
+"Me. I was driving the car on Mill Road."
+
+**CAMERA:**
+Start: (00:31.00) | End: (00:36.10)
+Medium shot: Reyes cuffs Dev while Hollis edges toward the door.
+
+**ACTION:**
+Start: (00:31.30) | End: (00:33.10)
+Reyes cuffs Dev's wrists.
+
+**OFFICER REYES (Firm):**
+Start: (00:33.40) | End: (00:35.90)
+"Mr. Hollis, you're coming too."
+
+**CAMERA:**
+Start: (00:36.10) | End: (00:39.60)
+Close-up on Nora, exhausted, as she pulls the fader down.
+
+**ACTION:**
+Start: (00:36.40) | End: (00:37.60)
+Nora pulls the master fader down.
+
+**SOUND FX:**
+Start: (00:37.90) | End: (00:39.40)
+The live hum cuts to silence.
+
+**CAMERA:**
+Start: (00:39.60) | End: (00:42.10)
+The ON AIR sign goes dark.
+
+SCENE 04
+Scene heading: INT. HARBOR FM – STUDIO B – NIGHT
+Scene start: 00:42.10
+Scene end: 01:16.40
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:42.10) | End: (00:49.90)
+Two-shot of Nora and Maya in the empty studio, rain streaking the window.
+
+**NORA (Soft, Tearful):**
+Start: (00:42.40) | End: (00:45.70)
+"I'm sorry. I let go of you."
+
+**MAYA (Soft):**
+Start: (00:46.00) | End: (00:49.70)
+"You jumped in after me. Nobody else did."
+
+**CAMERA:**
+Start: (00:49.90) | End: (00:55.80)
+Close-up on Maya as she holds out her phone.
+
+**MAYA (Uneasy):**
+Start: (00:50.20) | End: (00:55.60)
+"But Nora, you need to know something. I didn't call you tonight."
+
+**CAMERA:**
+Start: (00:55.80) | End: (00:57.80)
+Extreme close-up on Nora.
+
+**NORA (Confused):**
+Start: (00:56.10) | End: (00:56.90)
+"What?"
+
+**CAMERA:**
+Start: (00:57.80) | End: (01:01.80)
+Insert: Maya's phone shows a message from an unknown number: Be at Harbor FM at 2 a.m.
+
+**CAMERA:**
+Start: (01:01.80) | End: (01:04.80)
+Close-up on the studio console as line three lights up again.
+
+**SOUND FX:**
+Start: (01:02.10) | End: (01:04.60)
+A single phone line rings in the silent studio.
+
+**CAMERA:**
+Start: (01:04.80) | End: (01:11.40)
+Slow push-in on Nora lifting the receiver.
+
+**ACTION:**
+Start: (01:05.10) | End: (01:06.30)
+Nora lifts the receiver.
+
+**THE CALLER (V.O.) (Calm, Cold):**
+Start: (01:06.60) | End: (01:11.20)
+"Nice show, Nora. Now let's talk about what you did."
+
+**CAMERA:**
+Start: (01:11.40) | End: (01:14.90)
+Extreme close-up on Nora's face as the ON AIR sign flickers back on by itself.
+
+**SOUND FX:**
+Start: (01:11.70) | End: (01:14.20)
+The synth snaps back on with a cliffhanger sting.
+
+**CAMERA:**
+Start: (01:14.90) | End: (01:16.40)
+Cut to black.
+
+--- SCRIPT END ---

@@ -1,0 +1,174 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: A late-night radio host takes a call from a stranger who knows what she did on a flooded bridge ten years ago, and who says she is already inside the building.
+CONTINUITY NOTES: First episode of the show.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HARBOR FM – STUDIO B – NIGHT
+Scene start: 00:00.00
+Scene end: 01:29.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.50)
+Extreme close-up of a red ON AIR sign flickering to life in the dark.
+
+**SOUND FX:**
+Start: (00:00.30) | End: (00:03.30)
+A low synth drone hums under soft radio static.
+
+**CAMERA:**
+Start: (00:03.50) | End: (00:10.20)
+Medium shot of Nora at the microphone, headphones on, a mug of coffee going cold.
+
+**NORA (Warm, Unhurried):**
+Start: (00:03.80) | End: (00:10.00)
+"It's two in the morning, this is Night Line, and the lines are open."
+
+**CAMERA:**
+Start: (00:10.20) | End: (00:13.20)
+Through the booth glass, Dev raises a hand and points at line three.
+
+**ACTION:**
+Start: (00:10.50) | End: (00:12.30)
+Dev taps a blinking button on the phone console.
+
+**CAMERA:**
+Start: (00:13.20) | End: (00:18.70)
+Close-up on Nora, smiling into the microphone.
+
+**NORA (Warm):**
+Start: (00:13.50) | End: (00:18.50)
+"Line three, you're on the air. What's keeping you up tonight?"
+
+**CAMERA:**
+Start: (00:18.70) | End: (00:24.20)
+Slow push-in on Nora as she listens.
+
+**THE CALLER (V.O.) (Calm, Cold):**
+Start: (00:19.00) | End: (00:24.00)
+"You are, Nora. You've been keeping me up for ten years."
+
+**CAMERA:**
+Start: (00:24.20) | End: (00:27.20)
+Close-up on Nora's hand, frozen above the fader.
+
+**NORA (Thrown, Polite):**
+Start: (00:24.50) | End: (00:27.00)
+"I'm sorry, have we met?"
+
+**CAMERA:**
+Start: (00:27.20) | End: (00:33.90)
+Close-up on the phone console, line three glowing.
+
+**THE CALLER (V.O.) (Calm, Precise):**
+Start: (00:27.50) | End: (00:33.70)
+"The night of the flood. The old bridge on Mill Road. You were there."
+
+**CAMERA:**
+Start: (00:33.90) | End: (00:37.40)
+Extreme close-up on Nora's eyes.
+
+**SOUND FX:**
+Start: (00:34.20) | End: (00:37.20)
+The drone drops to a low, ominous pulse.
+
+**CAMERA:**
+Start: (00:37.40) | End: (00:41.20)
+Through the glass, Dev leans into the talkback microphone.
+
+**DEV (O.S.) (Urgent, Whispering):**
+Start: (00:37.70) | End: (00:41.00)
+"Dump the call. Nora, dump it now."
+
+**CAMERA:**
+Start: (00:41.20) | End: (00:46.70)
+Medium shot of Nora reaching for the cut switch.
+
+**THE CALLER (V.O.) (Cold, Threatening):**
+Start: (00:41.50) | End: (00:46.50)
+"Cut me off, and my next call is to the police."
+
+**CAMERA:**
+Start: (00:46.70) | End: (00:49.70)
+Close-up on Nora's finger trembling above the switch.
+
+**ACTION:**
+Start: (00:47.00) | End: (00:48.80)
+Nora pulls her hand back from the switch.
+
+**CAMERA:**
+Start: (00:49.70) | End: (00:53.20)
+Two-shot through the glass: Nora and Dev staring at each other.
+
+**NORA (Shaken, Quiet):**
+Start: (00:50.00) | End: (00:52.90)
+"What do you want from me?"
+
+**CAMERA:**
+Start: (00:53.20) | End: (00:58.70)
+Close-up on the level meters jumping on the console.
+
+**THE CALLER (V.O.) (Calm, Cold):**
+Start: (00:53.50) | End: (00:58.50)
+"The truth. Live. Tell them who you left on that bridge."
+
+**CAMERA:**
+Start: (00:58.70) | End: (01:04.60)
+Close-up on Nora, her breath catching.
+
+**NORA (Defiant, Shaking):**
+Start: (00:59.00) | End: (01:04.40)
+"I didn't leave anyone. I was seventeen. I jumped in after her."
+
+**CAMERA:**
+Start: (01:04.60) | End: (01:08.10)
+Wide shot of the studio as every phone line on the console starts to blink.
+
+**SOUND FX:**
+Start: (01:04.90) | End: (01:07.90)
+A chorus of phone lines rings at once.
+
+**CAMERA:**
+Start: (01:08.10) | End: (01:11.90)
+Through the glass, Dev stares at his screen.
+
+**DEV (O.S.) (Stunned):**
+Start: (01:08.40) | End: (01:11.70)
+"Nora, the switchboard's full. Everyone is listening."
+
+**CAMERA:**
+Start: (01:11.90) | End: (01:15.70)
+Close-up on Nora.
+
+**THE CALLER (V.O.) (Soft, Menacing):**
+Start: (01:12.20) | End: (01:15.50)
+"Good. Because I'm not calling from home."
+
+**CAMERA:**
+Start: (01:15.70) | End: (01:19.70)
+Slow push-in on the studio door behind Nora; its small window is dark.
+
+**THE CALLER (V.O.) (Whispering):**
+Start: (01:16.00) | End: (01:18.50)
+"I'm in the building, Nora."
+
+**CAMERA:**
+Start: (01:19.70) | End: (01:26.00)
+Wide shot of the corridor beyond the door as its lights go out one by one.
+
+**ACTION:**
+Start: (01:20.00) | End: (01:22.50)
+The corridor lights go out one by one.
+
+**SOUND FX:**
+Start: (01:22.80) | End: (01:25.80)
+A door buzzer sounds downstairs, and a hard cliffhanger sting cuts the hum dead.
+
+**CAMERA:**
+Start: (01:26.00) | End: (01:29.00)
+Extreme close-up on Nora's face, lit only by the red ON AIR sign. Cut to black.
+
+--- SCRIPT END ---

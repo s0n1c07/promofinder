@@ -1,0 +1,736 @@
+{
+  "schema_version": "1.0",
+  "show_id": "night_line",
+  "episode_number": 4,
+  "platform_episode_id": "900004",
+  "source": {
+    "file": "episode-004-Episode 900004.txt",
+    "sha256": "a1598d41ddd2581f0fdafa382536494317fae637c9b6ad65f9487342b7e3cd5a",
+    "line_count": 183
+  },
+  "header": {
+    "logline": "Nora tells the city the truth before the police reach the booth, then learns the woman in the raincoat never made the call.",
+    "continuity_notes": "Continues immediately after the Episode 3 cliffhanger: Hollis threatens Nora as the police arrive.",
+    "follows_episode": 3,
+    "prev_cliffhanger_note": "Hollis threatens Nora as the police arrive."
+  },
+  "duration_s": 76.4,
+  "scenes": [
+    {
+      "scene_id": "E004-S01",
+      "index": 1,
+      "heading": "INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – CONTROL BOOTH",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 0.0,
+      "end_s": 19.5,
+      "start_tc": "00:00.00",
+      "end_tc": "00:19.50",
+      "block_ids": [
+        "E004-B001",
+        "E004-B002",
+        "E004-B003",
+        "E004-B004",
+        "E004-B005",
+        "E004-B006",
+        "E004-B007",
+        "E004-B008"
+      ]
+    },
+    {
+      "scene_id": "E004-S02",
+      "index": 2,
+      "heading": "INT. HARBOR FM – STAIRWELL – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – STAIRWELL",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 19.5,
+      "end_s": 22.5,
+      "start_tc": "00:19.50",
+      "end_tc": "00:22.50",
+      "block_ids": [
+        "E004-B009",
+        "E004-B010"
+      ]
+    },
+    {
+      "scene_id": "E004-S03",
+      "index": 3,
+      "heading": "INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS",
+      "int_ext": "INT",
+      "location": "HARBOR FM – CONTROL BOOTH",
+      "time_of_day": "CONTINUOUS",
+      "start_s": 22.5,
+      "end_s": 42.1,
+      "start_tc": "00:22.50",
+      "end_tc": "00:42.10",
+      "block_ids": [
+        "E004-B011",
+        "E004-B012",
+        "E004-B013",
+        "E004-B014",
+        "E004-B015",
+        "E004-B016",
+        "E004-B017",
+        "E004-B018",
+        "E004-B019",
+        "E004-B020",
+        "E004-B021"
+      ]
+    },
+    {
+      "scene_id": "E004-S04",
+      "index": 4,
+      "heading": "INT. HARBOR FM – STUDIO B – NIGHT",
+      "int_ext": "INT",
+      "location": "HARBOR FM – STUDIO B",
+      "time_of_day": "NIGHT",
+      "start_s": 42.1,
+      "end_s": 76.4,
+      "start_tc": "00:42.10",
+      "end_tc": "01:16.40",
+      "block_ids": [
+        "E004-B022",
+        "E004-B023",
+        "E004-B024",
+        "E004-B025",
+        "E004-B026",
+        "E004-B027",
+        "E004-B028",
+        "E004-B029",
+        "E004-B030",
+        "E004-B031",
+        "E004-B032",
+        "E004-B033",
+        "E004-B034",
+        "E004-B035",
+        "E004-B036",
+        "E004-B037"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "E004-B001",
+      "index": 1,
+      "scene_id": "E004-S01",
+      "kind": "CAMERA",
+      "start_s": 0.0,
+      "end_s": 3.4,
+      "start_tc": "00:00.00",
+      "end_tc": "00:03.40",
+      "text": "Close-up on Nora's hand on the master fader.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 14
+    },
+    {
+      "block_id": "E004-B002",
+      "index": 2,
+      "scene_id": "E004-S01",
+      "kind": "DIALOGUE",
+      "start_s": 0.3,
+      "end_s": 3.2,
+      "start_tc": "00:00.30",
+      "end_tc": "00:03.20",
+      "text": "Night Line listeners, stay with me.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Steady",
+          "Resolute"
+        ]
+      },
+      "raw_label": "NORA (Steady, Resolute)",
+      "source_line": 18
+    },
+    {
+      "block_id": "E004-B003",
+      "index": 3,
+      "scene_id": "E004-S01",
+      "kind": "CAMERA",
+      "start_s": 3.4,
+      "end_s": 13.5,
+      "start_tc": "00:03.40",
+      "end_tc": "00:13.50",
+      "text": "Medium shot of Nora leaning into the booth microphone.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 22
+    },
+    {
+      "block_id": "E004-B004",
+      "index": 4,
+      "scene_id": "E004-S01",
+      "kind": "DIALOGUE",
+      "start_s": 3.7,
+      "end_s": 13.3,
+      "start_tc": "00:03.70",
+      "end_tc": "00:13.30",
+      "text": "The man who owns this station paid to bury a crash that nearly killed a girl. She is standing next to me.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Clear",
+          "Resolute"
+        ]
+      },
+      "raw_label": "NORA (Clear, Resolute)",
+      "source_line": 26
+    },
+    {
+      "block_id": "E004-B005",
+      "index": 5,
+      "scene_id": "E004-S01",
+      "kind": "CAMERA",
+      "start_s": 13.5,
+      "end_s": 16.0,
+      "start_tc": "00:13.50",
+      "end_tc": "00:16.00",
+      "text": "Close-up on Hollis lunging for the console.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 30
+    },
+    {
+      "block_id": "E004-B006",
+      "index": 6,
+      "scene_id": "E004-S01",
+      "kind": "ACTION",
+      "start_s": 13.8,
+      "end_s": 15.8,
+      "start_tc": "00:13.80",
+      "end_tc": "00:15.80",
+      "text": "Hollis grabs for the fader; Dev shoves him back against the wall.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 34
+    },
+    {
+      "block_id": "E004-B007",
+      "index": 7,
+      "scene_id": "E004-S01",
+      "kind": "CAMERA",
+      "start_s": 16.0,
+      "end_s": 19.5,
+      "start_tc": "00:16.00",
+      "end_tc": "00:19.50",
+      "text": "Close-up on Dev holding Hollis in place.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 38
+    },
+    {
+      "block_id": "E004-B008",
+      "index": 8,
+      "scene_id": "E004-S01",
+      "kind": "DIALOGUE",
+      "start_s": 16.3,
+      "end_s": 19.2,
+      "start_tc": "00:16.30",
+      "end_tc": "00:19.20",
+      "text": "It's over. I'll tell them myself.",
+      "speaker": {
+        "label": "DEV",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Shaking",
+          "Resolute"
+        ]
+      },
+      "raw_label": "DEV (Shaking, Resolute)",
+      "source_line": 42
+    },
+    {
+      "block_id": "E004-B009",
+      "index": 9,
+      "scene_id": "E004-S02",
+      "kind": "CAMERA",
+      "start_s": 19.5,
+      "end_s": 22.5,
+      "start_tc": "00:19.50",
+      "end_tc": "00:22.50",
+      "text": "Police flashlights sweep up the stairwell.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 53
+    },
+    {
+      "block_id": "E004-B010",
+      "index": 10,
+      "scene_id": "E004-S02",
+      "kind": "DIALOGUE",
+      "start_s": 19.8,
+      "end_s": 21.9,
+      "start_tc": "00:19.80",
+      "end_tc": "00:21.90",
+      "text": "Harbor Police! Nobody move!",
+      "speaker": {
+        "label": "OFFICER REYES",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "O.S.",
+        "delivery": [
+          "Commanding"
+        ]
+      },
+      "raw_label": "OFFICER REYES (O.S.) (Commanding)",
+      "source_line": 57
+    },
+    {
+      "block_id": "E004-B011",
+      "index": 11,
+      "scene_id": "E004-S03",
+      "kind": "CAMERA",
+      "start_s": 22.5,
+      "end_s": 26.3,
+      "start_tc": "00:22.50",
+      "end_tc": "00:26.30",
+      "text": "Wide shot as Officer Reyes enters the booth, a hand on her radio.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 68
+    },
+    {
+      "block_id": "E004-B012",
+      "index": 12,
+      "scene_id": "E004-S03",
+      "kind": "DIALOGUE",
+      "start_s": 22.8,
+      "end_s": 26.1,
+      "start_tc": "00:22.80",
+      "end_tc": "00:26.10",
+      "text": "Which one of you is Dev Marsh?",
+      "speaker": {
+        "label": "OFFICER REYES",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Firm"
+        ]
+      },
+      "raw_label": "OFFICER REYES (Firm)",
+      "source_line": 72
+    },
+    {
+      "block_id": "E004-B013",
+      "index": 13,
+      "scene_id": "E004-S03",
+      "kind": "CAMERA",
+      "start_s": 26.3,
+      "end_s": 31.0,
+      "start_tc": "00:26.30",
+      "end_tc": "00:31.00",
+      "text": "Close-up on Dev raising his hands.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 76
+    },
+    {
+      "block_id": "E004-B014",
+      "index": 14,
+      "scene_id": "E004-S03",
+      "kind": "DIALOGUE",
+      "start_s": 26.6,
+      "end_s": 30.8,
+      "start_tc": "00:26.60",
+      "end_tc": "00:30.80",
+      "text": "Me. I was driving the car on Mill Road.",
+      "speaker": {
+        "label": "DEV",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Quiet",
+          "Broken"
+        ]
+      },
+      "raw_label": "DEV (Quiet, Broken)",
+      "source_line": 80
+    },
+    {
+      "block_id": "E004-B015",
+      "index": 15,
+      "scene_id": "E004-S03",
+      "kind": "CAMERA",
+      "start_s": 31.0,
+      "end_s": 36.1,
+      "start_tc": "00:31.00",
+      "end_tc": "00:36.10",
+      "text": "Medium shot: Reyes cuffs Dev while Hollis edges toward the door.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 84
+    },
+    {
+      "block_id": "E004-B016",
+      "index": 16,
+      "scene_id": "E004-S03",
+      "kind": "ACTION",
+      "start_s": 31.3,
+      "end_s": 33.1,
+      "start_tc": "00:31.30",
+      "end_tc": "00:33.10",
+      "text": "Reyes cuffs Dev's wrists.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 88
+    },
+    {
+      "block_id": "E004-B017",
+      "index": 17,
+      "scene_id": "E004-S03",
+      "kind": "DIALOGUE",
+      "start_s": 33.4,
+      "end_s": 35.9,
+      "start_tc": "00:33.40",
+      "end_tc": "00:35.90",
+      "text": "Mr. Hollis, you're coming too.",
+      "speaker": {
+        "label": "OFFICER REYES",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Firm"
+        ]
+      },
+      "raw_label": "OFFICER REYES (Firm)",
+      "source_line": 92
+    },
+    {
+      "block_id": "E004-B018",
+      "index": 18,
+      "scene_id": "E004-S03",
+      "kind": "CAMERA",
+      "start_s": 36.1,
+      "end_s": 39.6,
+      "start_tc": "00:36.10",
+      "end_tc": "00:39.60",
+      "text": "Close-up on Nora, exhausted, as she pulls the fader down.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 96
+    },
+    {
+      "block_id": "E004-B019",
+      "index": 19,
+      "scene_id": "E004-S03",
+      "kind": "ACTION",
+      "start_s": 36.4,
+      "end_s": 37.6,
+      "start_tc": "00:36.40",
+      "end_tc": "00:37.60",
+      "text": "Nora pulls the master fader down.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 100
+    },
+    {
+      "block_id": "E004-B020",
+      "index": 20,
+      "scene_id": "E004-S03",
+      "kind": "SOUND_FX",
+      "start_s": 37.9,
+      "end_s": 39.4,
+      "start_tc": "00:37.90",
+      "end_tc": "00:39.40",
+      "text": "The live hum cuts to silence.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 104
+    },
+    {
+      "block_id": "E004-B021",
+      "index": 21,
+      "scene_id": "E004-S03",
+      "kind": "CAMERA",
+      "start_s": 39.6,
+      "end_s": 42.1,
+      "start_tc": "00:39.60",
+      "end_tc": "00:42.10",
+      "text": "The ON AIR sign goes dark.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 108
+    },
+    {
+      "block_id": "E004-B022",
+      "index": 22,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 42.1,
+      "end_s": 49.9,
+      "start_tc": "00:42.10",
+      "end_tc": "00:49.90",
+      "text": "Two-shot of Nora and Maya in the empty studio, rain streaking the window.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 119
+    },
+    {
+      "block_id": "E004-B023",
+      "index": 23,
+      "scene_id": "E004-S04",
+      "kind": "DIALOGUE",
+      "start_s": 42.4,
+      "end_s": 45.7,
+      "start_tc": "00:42.40",
+      "end_tc": "00:45.70",
+      "text": "I'm sorry. I let go of you.",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Soft",
+          "Tearful"
+        ]
+      },
+      "raw_label": "NORA (Soft, Tearful)",
+      "source_line": 123
+    },
+    {
+      "block_id": "E004-B024",
+      "index": 24,
+      "scene_id": "E004-S04",
+      "kind": "DIALOGUE",
+      "start_s": 46.0,
+      "end_s": 49.7,
+      "start_tc": "00:46.00",
+      "end_tc": "00:49.70",
+      "text": "You jumped in after me. Nobody else did.",
+      "speaker": {
+        "label": "MAYA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Soft"
+        ]
+      },
+      "raw_label": "MAYA (Soft)",
+      "source_line": 127
+    },
+    {
+      "block_id": "E004-B025",
+      "index": 25,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 49.9,
+      "end_s": 55.8,
+      "start_tc": "00:49.90",
+      "end_tc": "00:55.80",
+      "text": "Close-up on Maya as she holds out her phone.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 131
+    },
+    {
+      "block_id": "E004-B026",
+      "index": 26,
+      "scene_id": "E004-S04",
+      "kind": "DIALOGUE",
+      "start_s": 50.2,
+      "end_s": 55.6,
+      "start_tc": "00:50.20",
+      "end_tc": "00:55.60",
+      "text": "But Nora, you need to know something. I didn't call you tonight.",
+      "speaker": {
+        "label": "MAYA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Uneasy"
+        ]
+      },
+      "raw_label": "MAYA (Uneasy)",
+      "source_line": 135
+    },
+    {
+      "block_id": "E004-B027",
+      "index": 27,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 55.8,
+      "end_s": 57.8,
+      "start_tc": "00:55.80",
+      "end_tc": "00:57.80",
+      "text": "Extreme close-up on Nora.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 139
+    },
+    {
+      "block_id": "E004-B028",
+      "index": 28,
+      "scene_id": "E004-S04",
+      "kind": "DIALOGUE",
+      "start_s": 56.1,
+      "end_s": 56.9,
+      "start_tc": "00:56.10",
+      "end_tc": "00:56.90",
+      "text": "What?",
+      "speaker": {
+        "label": "NORA",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "ON",
+        "delivery": [
+          "Confused"
+        ]
+      },
+      "raw_label": "NORA (Confused)",
+      "source_line": 143
+    },
+    {
+      "block_id": "E004-B029",
+      "index": 29,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 57.8,
+      "end_s": 61.8,
+      "start_tc": "00:57.80",
+      "end_tc": "01:01.80",
+      "text": "Insert: Maya's phone shows a message from an unknown number: Be at Harbor FM at 2 a.m.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 147
+    },
+    {
+      "block_id": "E004-B030",
+      "index": 30,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 61.8,
+      "end_s": 64.8,
+      "start_tc": "01:01.80",
+      "end_tc": "01:04.80",
+      "text": "Close-up on the studio console as line three lights up again.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 151
+    },
+    {
+      "block_id": "E004-B031",
+      "index": 31,
+      "scene_id": "E004-S04",
+      "kind": "SOUND_FX",
+      "start_s": 62.1,
+      "end_s": 64.6,
+      "start_tc": "01:02.10",
+      "end_tc": "01:04.60",
+      "text": "A single phone line rings in the silent studio.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 155
+    },
+    {
+      "block_id": "E004-B032",
+      "index": 32,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 64.8,
+      "end_s": 71.4,
+      "start_tc": "01:04.80",
+      "end_tc": "01:11.40",
+      "text": "Slow push-in on Nora lifting the receiver.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 159
+    },
+    {
+      "block_id": "E004-B033",
+      "index": 33,
+      "scene_id": "E004-S04",
+      "kind": "ACTION",
+      "start_s": 65.1,
+      "end_s": 66.3,
+      "start_tc": "01:05.10",
+      "end_tc": "01:06.30",
+      "text": "Nora lifts the receiver.",
+      "speaker": null,
+      "raw_label": "ACTION",
+      "source_line": 163
+    },
+    {
+      "block_id": "E004-B034",
+      "index": 34,
+      "scene_id": "E004-S04",
+      "kind": "DIALOGUE",
+      "start_s": 66.6,
+      "end_s": 71.2,
+      "start_tc": "01:06.60",
+      "end_tc": "01:11.20",
+      "text": "Nice show, Nora. Now let's talk about what you did.",
+      "speaker": {
+        "label": "THE CALLER",
+        "character_id": null,
+        "alias_hint": null,
+        "voice": "V.O.",
+        "delivery": [
+          "Calm",
+          "Cold"
+        ]
+      },
+      "raw_label": "THE CALLER (V.O.) (Calm, Cold)",
+      "source_line": 167
+    },
+    {
+      "block_id": "E004-B035",
+      "index": 35,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 71.4,
+      "end_s": 74.9,
+      "start_tc": "01:11.40",
+      "end_tc": "01:14.90",
+      "text": "Extreme close-up on Nora's face as the ON AIR sign flickers back on by itself.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 171
+    },
+    {
+      "block_id": "E004-B036",
+      "index": 36,
+      "scene_id": "E004-S04",
+      "kind": "SOUND_FX",
+      "start_s": 71.7,
+      "end_s": 74.2,
+      "start_tc": "01:11.70",
+      "end_tc": "01:14.20",
+      "text": "The synth snaps back on with a cliffhanger sting.",
+      "speaker": null,
+      "raw_label": "SOUND FX",
+      "source_line": 175
+    },
+    {
+      "block_id": "E004-B037",
+      "index": 37,
+      "scene_id": "E004-S04",
+      "kind": "CAMERA",
+      "start_s": 74.9,
+      "end_s": 76.4,
+      "start_tc": "01:14.90",
+      "end_tc": "01:16.40",
+      "text": "Cut to black.",
+      "speaker": null,
+      "raw_label": "CAMERA",
+      "source_line": 179
+    }
+  ],
+  "warnings": []
+}

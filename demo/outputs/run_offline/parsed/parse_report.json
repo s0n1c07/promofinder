@@ -1,0 +1,78 @@
+{
+  "tool": "promofinder 0.1.0",
+  "input": "demo\\Input",
+  "show_id": "night_line",
+  "files_found": 4,
+  "episodes_parsed": 4,
+  "episodes_valid": 4,
+  "totals": {
+    "scenes": 10,
+    "blocks": 161,
+    "dialogue": 50,
+    "camera": 79,
+    "action": 15,
+    "sound_fx": 17,
+    "runtime_s": 358.3
+  },
+  "warnings_by_code": {},
+  "warnings": [],
+  "errors": [],
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "episode-001-Episode 900001.txt",
+      "output": "E001.json",
+      "valid": true,
+      "scenes": 1,
+      "blocks": 40,
+      "dialogue": 13,
+      "camera": 20,
+      "action": 3,
+      "sound_fx": 4,
+      "duration_s": 89.0,
+      "warnings": 0
+    },
+    {
+      "episode": 2,
+      "file": "episode-002-Episode 900002.txt",
+      "output": "E002.json",
+      "valid": true,
+      "scenes": 3,
+      "blocks": 42,
+      "dialogue": 14,
+      "camera": 20,
+      "action": 4,
+      "sound_fx": 4,
+      "duration_s": 96.4,
+      "warnings": 0
+    },
+    {
+      "episode": 3,
+      "file": "episode-003-Episode 900003.txt",
+      "output": "E003.json",
+      "valid": true,
+      "scenes": 2,
+      "blocks": 42,
+      "dialogue": 11,
+      "camera": 21,
+      "action": 4,
+      "sound_fx": 6,
+      "duration_s": 96.5,
+      "warnings": 0
+    },
+    {
+      "episode": 4,
+      "file": "episode-004-Episode 900004.txt",
+      "output": "E004.json",
+      "valid": true,
+      "scenes": 4,
+      "blocks": 37,
+      "dialogue": 12,
+      "camera": 18,
+      "action": 4,
+      "sound_fx": 3,
+      "duration_s": 76.4,
+      "warnings": 0
+    }
+  ]
+}

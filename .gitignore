@@ -1,0 +1,30 @@
+# This repo is public, so git ignores everything that is not listed below.
+# The screenplay pack (Input/) is confidential, and so is everything made from it:
+# outputs/, eval/, submission/ and the model cache (.cache/) stay on this machine.
+# Before every push: python scripts/check_public.py --pack Input
+/*
+!/.gitignore
+!/README.md
+!/PLAN.md
+!/WRITEUP.md
+!/pyproject.toml
+!/requirements.txt
+!/config/
+!/demo/
+!/docs/
+!/lexicons/
+!/promofinder/
+!/prompts/
+!/schema/
+!/scripts/
+!/tests/
+!/Input/
+/Input/*
+!/Input/README.md
+
+# Never, even inside the folders above
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.cache/

@@ -1,0 +1,189 @@
+EPISODE NUMBER: Episode 3
+EPISODE LOGLINE: The woman in the yellow raincoat walks in, the girl everyone believed drowned, and Dev's secret comes out live on air.
+CONTINUITY NOTES: Continues immediately after the Episode 2 cliffhanger: the studio door handle starts to turn.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HARBOR FM – STUDIO B – CONTINUOUS
+Scene start: 00:00.00
+Scene end: 00:42.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:02.50)
+Close-up on the turning handle.
+
+**ACTION:**
+Start: (00:00.30) | End: (00:01.50)
+The door swings open.
+
+**CAMERA:**
+Start: (00:02.50) | End: (00:06.00)
+Wide shot: a woman in a yellow raincoat stands dripping in the doorway, her phone glowing in her hand.
+
+**SOUND FX:**
+Start: (00:02.80) | End: (00:05.80)
+Rain roars in the stairwell behind her.
+
+**CAMERA:**
+Start: (00:06.00) | End: (00:08.50)
+Close-up on Nora, backing against the desk.
+
+**NORA (Terrified):**
+Start: (00:06.30) | End: (00:07.90)
+"Who are you?"
+
+**CAMERA:**
+Start: (00:08.50) | End: (00:17.10)
+Close-up on the woman as she lowers her hood.
+
+**ACTION:**
+Start: (00:08.80) | End: (00:10.80)
+The woman lowers her hood; a pale scar runs along her jaw.
+
+**WOMAN IN YELLOW RAINCOAT (Maya) (Steady, Hurt):**
+Start: (00:11.10) | End: (00:16.90)
+"You knew me as Maya. You held on to me in the river."
+
+**CAMERA:**
+Start: (00:17.10) | End: (00:22.20)
+Extreme close-up on Nora's face.
+
+**NORA (Stunned, Whispering):**
+Start: (00:17.40) | End: (00:22.00)
+"Maya Cole? They never found you. They said you drowned."
+
+**CAMERA:**
+Start: (00:22.20) | End: (00:31.90)
+Two-shot of Nora and Maya.
+
+**MAYA (Bitter):**
+Start: (00:22.50) | End: (00:31.70)
+"I washed up two miles downstream. Someone drove onto that bridge with no lights, and drove away when I went over."
+
+**CAMERA:**
+Start: (00:31.90) | End: (00:34.90)
+Through the glass, Dev backs away from the window.
+
+**SOUND FX:**
+Start: (00:32.20) | End: (00:34.70)
+A low heartbeat pulse.
+
+**CAMERA:**
+Start: (00:34.90) | End: (00:42.50)
+Medium shot of Nora turning to the glass.
+
+**NORA (Breaking):**
+Start: (00:35.20) | End: (00:42.30)
+"You told me it was my fault. You said I panicked and let go of her."
+
+SCENE 02
+Scene heading: INT. HARBOR FM – CONTROL BOOTH – CONTINUOUS
+Scene start: 00:42.50
+Scene end: 01:36.50
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:42.50) | End: (00:45.00)
+Nora storms into the booth.
+
+**ACTION:**
+Start: (00:42.80) | End: (00:44.00)
+Nora shoves the booth door open.
+
+**CAMERA:**
+Start: (00:45.00) | End: (00:50.50)
+Close-up on Dev.
+
+**DEV (Desperate, Pleading):**
+Start: (00:45.30) | End: (00:50.30)
+"I was nineteen. I'd been drinking. I thought she was gone."
+
+**CAMERA:**
+Start: (00:50.50) | End: (00:52.50)
+Close-up on Nora.
+
+**ACTION:**
+Start: (00:50.80) | End: (00:51.60)
+Nora slaps Dev across the face.
+
+**CAMERA:**
+Start: (00:52.50) | End: (00:55.00)
+Close-up on Dev, his cheek reddening.
+
+**SOUND FX:**
+Start: (00:52.80) | End: (00:54.30)
+The slap rings out over the live microphone.
+
+**CAMERA:**
+Start: (00:55.00) | End: (01:00.50)
+Medium shot of Nora, tears on her face.
+
+**NORA (Furious, Tearful):**
+Start: (00:55.30) | End: (01:00.30)
+"Ten years. Ten years I carried her, and you let me."
+
+**CAMERA:**
+Start: (01:00.50) | End: (01:04.00)
+Hollis, giddy, holds up his phone to show a live listener graph.
+
+**HOLLIS (Delighted):**
+Start: (01:00.80) | End: (01:03.70)
+"Keep going. Sixty thousand and climbing."
+
+**CAMERA:**
+Start: (01:04.00) | End: (01:13.70)
+Close-up on Maya in the booth doorway.
+
+**MAYA (Cold):**
+Start: (01:04.30) | End: (01:13.50)
+"Turn it off, Mr. Hollis. Or tell them how much you paid to keep your nephew's car out of the papers."
+
+**CAMERA:**
+Start: (01:13.70) | End: (01:16.20)
+Extreme close-up on Hollis, his smile frozen.
+
+**SOUND FX:**
+Start: (01:14.00) | End: (01:15.50)
+A sharp string sting.
+
+**CAMERA:**
+Start: (01:16.20) | End: (01:20.90)
+Close-up on Nora.
+
+**NORA (Slow, Realising):**
+Start: (01:16.50) | End: (01:20.70)
+"Your nephew. You hired him knowing what he did."
+
+**CAMERA:**
+Start: (01:20.90) | End: (01:24.40)
+Wide shot of the booth as blue and red lights sweep across the window.
+
+**SOUND FX:**
+Start: (01:21.20) | End: (01:24.20)
+Police sirens rise outside.
+
+**CAMERA:**
+Start: (01:24.40) | End: (01:32.00)
+Close-up on Hollis, slipping his phone into his coat.
+
+**HOLLIS (Cold, Threatening):**
+Start: (01:24.70) | End: (01:31.80)
+"Say one more word on air, and none of you will ever work in radio again."
+
+**CAMERA:**
+Start: (01:32.00) | End: (01:35.00)
+Extreme close-up on Nora's hand moving to the master fader.
+
+**SOUND FX:**
+Start: (01:32.30) | End: (01:34.80)
+The synth hits a cliffhanger high and holds it.
+
+**CAMERA:**
+Start: (01:35.00) | End: (01:36.50)
+Cut to black.
+
+--- SCRIPT END ---

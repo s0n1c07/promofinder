@@ -1,0 +1,105 @@
+# Defaults for a promo-finder run. Override any value with --config path/to/file.toml.
+
+[promo]
+min_s = 20.0              # shortest promo (sum of its segments)
+max_s = 60.0              # longest promo
+sweet_min_s = 25.0        # lengths that score best on Reels / TikTok / Shorts
+sweet_max_s = 45.0
+hook_max_onset_s = 3.0    # the hook beat must start within this many seconds of the promo start
+hook_target_onset_s = 1.5 # ...and ideally within this many
+max_segments = 3
+min_segment_s = 3.0
+
+[timeline]
+eps_s = 0.05              # time differences below this are rounding noise
+
+[candidates]
+keep_per_episode = 6      # windows kept per episode after scoring
+max_overlap = 0.5         # kept windows may share at most this fraction of the shorter window
+tail_s = 6.0              # a promo's "ending" is its last 6 seconds
+tail_near_s = 3.0         # beats in the last 3 s count fully; earlier tail beats count 75%
+lookahead_s = 6.0         # how far past the cut to look for the payoff the viewer is denied
+min_hook = 0.35           # rules: weakest opening that still counts as a hook
+min_cliff = 0.25          # rules: weakest ending that still counts as a cliffhanger
+anchor_min_hook = 0.6     # every opening this strong gets its own best window judged, even if a
+max_extra_anchors = 2     # higher-scoring window overlaps it (M3: the altar line was dropped that way)
+
+[multiseg]                # promos that join 2-3 moments, in story order
+min_hook = 0.6            # rules: an opening strong enough to start a two-part promo
+min_cliff = 0.5           # rules: an ending strong enough to close one
+min_cut_s = 25.0          # tightened: only when opening and ending are at least this far apart
+setup_s = 2.0             # the last part starts this long before its cliffhanger beat
+min_part_s = 5.0          # each part of a joined promo lasts at least this long, so a jump has context
+min_gap_s = 2.0           # parts of one episode closer than this are merged into one
+reply_gap_s = 3.0         # a later part never opens on an answer to a question asked this close before it
+                          # (it starts at the question instead, or the join is dropped)
+jump_penalty = 0.25       # each cut between parts costs this much on "makes sense to a stranger"
+                          # (rules can't tell whether a jump makes sense; a joined promo needs a clear edge)
+tightened_per_episode = 1 # rules: best two-part cut within one episode
+bridge_window_s = 40.0    # bridges: opening in the last 40 s of episode N, ending in the first 40 s of N+1
+direct_link = "directly|immediately"  # continuity-note words that mean N+1 picks up where N stopped
+montage_chunk_episodes = 10   # LLM: one montage call per this many episodes of beats (with 25, the
+                              # model only picked from the top half of each menu; eval/FINDINGS.md)
+montages_per_call = 3
+beats_per_episode = 4     # LLM: the model's best-rated beats per episode offered for montages
+
+[score.weights]
+hook = 0.35
+cliffhanger = 0.30
+standalone = 0.20
+pacing = 0.10
+length = 0.05
+
+[rank]
+top_n = 10
+max_overlap = 0.3         # two promos from one episode overlapping more than this are duplicates
+episode_penalty = 0.08    # per promo already ranked above from the same episode
+trope_penalty = 0.03      # per promo already ranked above with the same trope
+funnel_bonus = 0.05       # bonus for Episode 1, falling linearly to 0 at the last episode
+premise_episodes = 5      # posting plan: promos from these first episodes go to cold audiences first
+payoff_share = 0.3        # posting plan: the last 30% of episodes (and spoilers) re-engage viewers who started
+plan_per_tier = 3         # posting plan: promos listed per tier
+
+[rank.flag_penalty]       # starting guesses, to be tuned from editor approvals (PLAN.md §3 [8])
+graphic = 0.05            # ad platforms restrict graphic violence: flagged for a policy check, not dropped
+spoiler = 0.05            # gives away a major twist: held back from cold audiences (it leads the payoff tier)
+
+[lexicon]
+path = "lexicons/promo_v1.toml"
+
+[qc]                      # python -m promofinder qc <run folder>; quality checks in PLAN.md §7
+blind_prompt = "prompts/blind_v2.md"   # v1 counted speaker tags (which viewers never see) as unexplained
+naive_prompt = "prompts/naive_v2.md"   # v1 asked for 10 promos; the reply ran out of output tokens
+naive_max_output_tokens = 2900   # with Episodes 1-3 this keeps the context window at 16K; 32K crashed the laptop
+blind_top = 50            # blind-viewer test: the top 50, every joined promo, and a random control
+blind_control = 20        #   sample of lower-ranked single windows
+blind_joined = true       # include every joined promo ranked below the top
+seed = 7
+naive_episodes = "1-3"    # naive baseline: episodes pasted into one prompt (more don't fit a laptop's memory)
+
+[judge]                   # LLM judges only; --judge offline ignores this section
+prompt = "prompts/judge_v2.md"
+montage_prompt = "prompts/montage_v2.md"   # v1 listed the reply fields in another order than the schema
+llm_weight = 0.7          # each judged score = 0.7 model + 0.3 rules, so the model alone cannot lift a window
+disagree_at = 0.5         # flag a promo when model and rules differ this much on hook or cliffhanger
+max_proposals = 2         # windows the model may add per episode, by hook and cliffhanger block ID
+why_max_words = 25        # longer "why it works" lines are cut and counted
+
+[llm]
+cache = true              # same model + same prompt -> answered once; re-runs are free and identical
+cache_dir = ".cache/llm"
+timeout_s = 900           # one episode on a laptop CPU takes a minute or two
+max_output_tokens = 2048
+
+[llm.ollama]
+host = "http://localhost:11434"   # the OLLAMA_HOST environment variable wins if set
+num_ctx = 8192            # context window (tokens): the longest episode needs about 6K with the reply;
+                          # a longer prompt gets a bigger window for that call. Smaller = less RAM
+temperature = 0.0
+seed = 7
+keep_alive = "30m"        # keep the model loaded between episodes
+
+[cost.reference_usd_per_mtok]     # [input, output] list prices, only to estimate what an API run would cost
+"claude-haiku-5-5" = [0.10, 0.50]
+"claude-sonnet-5-5" = [2.0, 10.0]
+"claude-opus-5-5" = [4.0, 20.0]

@@ -1,0 +1,718 @@
+[
+  {
+    "promo_id": "P001",
+    "rank": 1,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      1
+    ],
+    "segments": [
+      {
+        "episode": 1,
+        "start": "00:53.20",
+        "end": "01:25.80",
+        "start_s": 53.2,
+        "end_s": 85.8,
+        "duration_s": 32.6,
+        "first_block": "E001-B025",
+        "last_block": "E001-B039"
+      }
+    ],
+    "duration_s": 32.6,
+    "hook": {
+      "block_id": "E001-B026",
+      "at": "00:53.50",
+      "onset_s": 0.3,
+      "text": "THE CALLER: \"The truth. Live. Tell them who you left on that bridge.\""
+    },
+    "cliffhanger": {
+      "block_id": "E001-B039",
+      "at": "01:22.80",
+      "text": "(sound fx) A door buzzer sounds downstairs, and a hard cliffhanger sting cuts the hum dead.",
+      "open_question": "Will the intruder kill her before she can speak?",
+      "question_by": "model"
+    },
+    "why_it_works": "The threat of a live broadcast and an intruder creates immediate life-or-death stakes.",
+    "rank_reason": "final 0.91, strongest on cliffhanger (1.00); from Episode 1, so a new viewer can keep watching straight away; first danger promo in the list; 0.05 taken off for graphic content (ad-policy check); check: graphic, context_needed",
+    "scores": {
+      "hook": 0.92,
+      "cliffhanger": 1.0,
+      "standalone": 0.81,
+      "pacing": 0.753,
+      "length": 1.0,
+      "funnel": 0.05,
+      "penalty": 0.05,
+      "final": 0.909
+    },
+    "trope": "danger",
+    "flags": [
+      "graphic",
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 5,
+        "cliff": 5,
+        "standalone": 4
+      },
+      "rule_scores": {
+        "hook": 0.735,
+        "cliffhanger": 1.0,
+        "standalone": 0.95
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E001-C01"
+  },
+  {
+    "promo_id": "P002",
+    "rank": 2,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      3
+    ],
+    "segments": [
+      {
+        "episode": 3,
+        "start": "00:50.50",
+        "end": "01:15.50",
+        "start_s": 50.5,
+        "end_s": 75.5,
+        "duration_s": 25.0,
+        "first_block": "E003-B022",
+        "last_block": "E003-B033"
+      }
+    ],
+    "duration_s": 25.0,
+    "hook": {
+      "block_id": "E003-B023",
+      "at": "00:50.80",
+      "onset_s": 0.3,
+      "text": "(action) Nora slaps Dev across the face."
+    },
+    "cliffhanger": {
+      "block_id": "E003-B031",
+      "at": "01:04.30",
+      "text": "MAYA: \"Turn it off, Mr. Hollis. Or tell them how much you paid to keep your nephew's car out of the papers.\"",
+      "open_question": "What does Maya know that Nora doesn't?",
+      "question_by": "model"
+    },
+    "why_it_works": "The slap is instant shock; the threat about the nephew's car creates immediate stakes.",
+    "rank_reason": "final 0.86, strongest on hook (0.95); from Episode 3, so a new viewer can keep watching straight away; first betrayal promo in the list; check: context_needed",
+    "scores": {
+      "hook": 0.949,
+      "cliffhanger": 0.825,
+      "standalone": 0.65,
+      "pacing": 0.8,
+      "length": 1.0,
+      "funnel": 0.017,
+      "penalty": 0,
+      "final": 0.857
+    },
+    "trope": "betrayal",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 5,
+        "cliff": 4,
+        "standalone": 3
+      },
+      "rule_scores": {
+        "hook": 0.83,
+        "cliffhanger": 1.0,
+        "standalone": 1.0
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E003-C01"
+  },
+  {
+    "promo_id": "P003",
+    "rank": 3,
+    "kind": "tightened",
+    "found_by": "rules",
+    "episodes": [
+      2
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "00:03.00",
+        "end": "00:13.30",
+        "start_s": 3.0,
+        "end_s": 13.3,
+        "duration_s": 10.3,
+        "first_block": "E002-B003",
+        "last_block": "E002-B007"
+      },
+      {
+        "episode": 2,
+        "start": "01:24.90",
+        "end": "01:34.70",
+        "start_s": 84.9,
+        "end_s": 94.7,
+        "duration_s": 9.8,
+        "first_block": "E002-B037",
+        "last_block": "E002-B041"
+      }
+    ],
+    "duration_s": 20.1,
+    "hook": {
+      "block_id": "E002-B003",
+      "at": "00:03.00",
+      "onset_s": 0.0,
+      "text": "(camera) Through the glass, Dev slams the side of the flickering security monitor."
+    },
+    "cliffhanger": {
+      "block_id": "E002-B041",
+      "at": "01:32.20",
+      "text": "(sound fx) The synth climbs into a sharp cliffhanger sting.",
+      "open_question": "What is the secret the caller is forcing Nora to uncover?",
+      "question_by": "model"
+    },
+    "why_it_works": "Juxtaposing Dev's violent outburst with a mysterious voice drop creates a compelling narrative gap.",
+    "rank_reason": "final 0.86, strongest on cliffhanger (1.00); from Episode 2, so a new viewer can keep watching straight away; check: context_needed",
+    "scores": {
+      "hook": 0.937,
+      "cliffhanger": 1.0,
+      "standalone": 0.385,
+      "pacing": 0.782,
+      "length": 0.804,
+      "funnel": 0.033,
+      "penalty": 0,
+      "final": 0.856
+    },
+    "trope": "betrayal",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 5,
+        "cliff": 5,
+        "standalone": 2
+      },
+      "rule_scores": {
+        "hook": 0.79,
+        "cliffhanger": 1.0,
+        "standalone": 0.7
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E002-T01"
+  },
+  {
+    "promo_id": "P004",
+    "rank": 4,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      2
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "01:16.40",
+        "end": "01:36.40",
+        "start_s": 76.4,
+        "end_s": 96.4,
+        "duration_s": 20.0,
+        "first_block": "E002-B032",
+        "last_block": "E002-B042"
+      }
+    ],
+    "duration_s": 20.0,
+    "hook": {
+      "block_id": "E002-B032",
+      "at": "01:16.60",
+      "onset_s": 0.2,
+      "text": "(camera) Wide shot of the booth: Dev reaching for the door, Hollis blocking it."
+    },
+    "cliffhanger": {
+      "block_id": "E002-B041",
+      "at": "01:32.20",
+      "text": "(sound fx) The synth climbs into a sharp cliffhanger sting.",
+      "open_question": "Is Dev about to escape or get trapped forever?",
+      "question_by": "model"
+    },
+    "why_it_works": "The physical struggle at the door combined with a rising synth sting creates an immediate sense of impending doom.",
+    "rank_reason": "final 0.81, strongest on cliffhanger (1.00); from Episode 2, so a new viewer can keep watching straight away; check: context_needed",
+    "scores": {
+      "hook": 0.721,
+      "cliffhanger": 1.0,
+      "standalone": 0.635,
+      "pacing": 0.618,
+      "length": 0.8,
+      "funnel": 0.033,
+      "penalty": 0,
+      "final": 0.814
+    },
+    "trope": "danger",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 4,
+        "cliff": 5,
+        "standalone": 3
+      },
+      "rule_scores": {
+        "hook": 0.654,
+        "cliffhanger": 1.0,
+        "standalone": 0.95
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E002-C02"
+  },
+  {
+    "promo_id": "P005",
+    "rank": 5,
+    "kind": "tightened",
+    "found_by": "rules",
+    "episodes": [
+      3
+    ],
+    "segments": [
+      {
+        "episode": 3,
+        "start": "00:06.00",
+        "end": "00:16.90",
+        "start_s": 6.0,
+        "end_s": 16.9,
+        "duration_s": 10.9,
+        "first_block": "E003-B005",
+        "last_block": "E003-B009"
+      },
+      {
+        "episode": 3,
+        "start": "01:04.00",
+        "end": "01:15.50",
+        "start_s": 64.0,
+        "end_s": 75.5,
+        "duration_s": 11.5,
+        "first_block": "E003-B030",
+        "last_block": "E003-B033"
+      }
+    ],
+    "duration_s": 22.4,
+    "hook": {
+      "block_id": "E003-B008",
+      "at": "00:08.80",
+      "onset_s": 2.8,
+      "text": "(action) The woman lowers her hood; a pale scar runs along her jaw."
+    },
+    "cliffhanger": {
+      "block_id": "E003-B031",
+      "at": "01:04.30",
+      "text": "MAYA: \"Turn it off, Mr. Hollis. Or tell them how much you paid to keep your nephew's car out of the papers.\"",
+      "open_question": "Is the woman in the raincoat really Maya?",
+      "question_by": "model"
+    },
+    "why_it_works": "Juxtaposing the scar reveal with the blackmail threat creates a confusing but gripping narrative gap.",
+    "rank_reason": "final 0.76, strongest on hook (0.82); from Episode 3, so a new viewer can keep watching straight away; first scheme promo in the list; check: slow_start, context_needed",
+    "scores": {
+      "hook": 0.825,
+      "cliffhanger": 0.825,
+      "standalone": 0.4,
+      "pacing": 0.768,
+      "length": 0.896,
+      "funnel": 0.017,
+      "penalty": 0,
+      "final": 0.755
+    },
+    "trope": "scheme",
+    "flags": [
+      "slow_start",
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 4,
+        "cliff": 4,
+        "standalone": 2
+      },
+      "rule_scores": {
+        "hook": 1.0,
+        "cliffhanger": 1.0,
+        "standalone": 0.75
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E003-T01"
+  },
+  {
+    "promo_id": "P006",
+    "rank": 6,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      4
+    ],
+    "segments": [
+      {
+        "episode": 4,
+        "start": "00:03.40",
+        "end": "00:26.60",
+        "start_s": 3.4,
+        "end_s": 26.6,
+        "duration_s": 23.2,
+        "first_block": "E004-B003",
+        "last_block": "E004-B013"
+      }
+    ],
+    "duration_s": 23.2,
+    "hook": {
+      "block_id": "E004-B004",
+      "at": "00:03.70",
+      "onset_s": 0.3,
+      "text": "NORA: \"The man who owns this station paid to bury a crash that nearly killed a girl. She is standing next to me.\""
+    },
+    "cliffhanger": {
+      "block_id": "E004-B013",
+      "at": "00:26.30",
+      "text": "(camera) Close-up on Dev raising his hands.",
+      "open_question": "Why is Hollis standing right next to Nora?",
+      "question_by": "model"
+    },
+    "why_it_works": "The line about burying a crash creates instant intrigue about the hidden girl.",
+    "rank_reason": "final 0.68, strongest on cliffhanger (0.76); from Episode 4, so a new viewer can keep watching straight away; check: context_needed",
+    "scores": {
+      "hook": 0.674,
+      "cliffhanger": 0.764,
+      "standalone": 0.475,
+      "pacing": 0.72,
+      "length": 0.928,
+      "funnel": 0.0,
+      "penalty": 0,
+      "final": 0.678
+    },
+    "trope": "betrayal",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 4,
+        "cliff": 4,
+        "standalone": 2
+      },
+      "rule_scores": {
+        "hook": 0.498,
+        "cliffhanger": 0.796,
+        "standalone": 1.0
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E004-C02"
+  },
+  {
+    "promo_id": "P007",
+    "rank": 7,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      2
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "00:03.00",
+        "end": "00:58.30",
+        "start_s": 3.0,
+        "end_s": 58.3,
+        "duration_s": 55.3,
+        "first_block": "E002-B003",
+        "last_block": "E002-B024"
+      }
+    ],
+    "duration_s": 55.3,
+    "hook": {
+      "block_id": "E002-B003",
+      "at": "00:03.00",
+      "onset_s": 0.0,
+      "text": "(camera) Through the glass, Dev slams the side of the flickering security monitor."
+    },
+    "cliffhanger": {
+      "block_id": "E002-B022",
+      "at": "00:50.20",
+      "text": "THE CALLER: \"He's lying, Nora. Ask him why he stopped driving after that night.\"",
+      "open_question": "Who is the caller and why do they know Nora?",
+      "question_by": "model"
+    },
+    "why_it_works": "Dev smashing the monitor creates instant physical tension that demands to know what's behind the glass.",
+    "rank_reason": "final 0.77, strongest on hook (0.94); from Episode 2, so a new viewer can keep watching straight away; check: context_needed",
+    "scores": {
+      "hook": 0.937,
+      "cliffhanger": 0.808,
+      "standalone": 0.255,
+      "pacing": 0.748,
+      "length": 0.863,
+      "funnel": 0.033,
+      "penalty": 0,
+      "final": 0.772
+    },
+    "trope": "scheme",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 5,
+        "cliff": 4,
+        "standalone": 1
+      },
+      "rule_scores": {
+        "hook": 0.79,
+        "cliffhanger": 0.942,
+        "standalone": 0.85
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E002-C01"
+  },
+  {
+    "promo_id": "P008",
+    "rank": 8,
+    "kind": "montage",
+    "found_by": "llm",
+    "episodes": [
+      1,
+      3
+    ],
+    "segments": [
+      {
+        "episode": 1,
+        "start": "00:53.20",
+        "end": "00:59.00",
+        "start_s": 53.2,
+        "end_s": 59.0,
+        "duration_s": 5.8,
+        "first_block": "E001-B025",
+        "last_block": "E001-B027"
+      },
+      {
+        "episode": 3,
+        "start": "01:00.80",
+        "end": "01:16.20",
+        "start_s": 60.8,
+        "end_s": 76.2,
+        "duration_s": 15.4,
+        "first_block": "E003-B029",
+        "last_block": "E003-B033"
+      }
+    ],
+    "duration_s": 21.2,
+    "hook": {
+      "block_id": "E001-B026",
+      "at": "00:53.50",
+      "onset_s": 0.3,
+      "text": "THE CALLER: \"The truth. Live. Tell them who you left on that bridge.\""
+    },
+    "cliffhanger": {
+      "block_id": "E003-B032",
+      "at": "01:13.70",
+      "text": "(camera) Extreme close-up on Hollis, his smile frozen.",
+      "open_question": "Who is Hollis and why does he smile?",
+      "question_by": "model"
+    },
+    "why_it_works": "The caller's threat sets up the terrifying reveal of Hollis's reaction.",
+    "rank_reason": "final 0.81, strongest on hook (0.92); from Episode 1, so a new viewer can keep watching straight away; check: context_needed",
+    "scores": {
+      "hook": 0.92,
+      "cliffhanger": 0.825,
+      "standalone": 0.385,
+      "pacing": 0.735,
+      "length": 0.848,
+      "funnel": 0.05,
+      "penalty": 0,
+      "final": 0.812
+    },
+    "trope": "danger",
+    "flags": [
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 5,
+        "cliff": 4,
+        "standalone": 2
+      },
+      "rule_scores": {
+        "hook": 0.735,
+        "cliffhanger": 1.0,
+        "standalone": 0.7
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "M01-03"
+  },
+  {
+    "promo_id": "P009",
+    "rank": 9,
+    "kind": "single",
+    "found_by": "rules",
+    "episodes": [
+      3
+    ],
+    "segments": [
+      {
+        "episode": 3,
+        "start": "00:06.00",
+        "end": "00:34.70",
+        "start_s": 6.0,
+        "end_s": 34.7,
+        "duration_s": 28.7,
+        "first_block": "E003-B005",
+        "last_block": "E003-B015"
+      }
+    ],
+    "duration_s": 28.7,
+    "hook": {
+      "block_id": "E003-B008",
+      "at": "00:08.80",
+      "onset_s": 2.8,
+      "text": "(action) The woman lowers her hood; a pale scar runs along her jaw."
+    },
+    "cliffhanger": {
+      "block_id": "E003-B013",
+      "at": "00:22.50",
+      "text": "MAYA: \"I washed up two miles downstream. Someone drove onto that bridge with no lights, and drove away when I went over.\"",
+      "open_question": "Why did Nora let Maya drown?",
+      "question_by": "model"
+    },
+    "why_it_works": "The scar reveal is strong visual tension, but the backstory requires prior knowledge to fully land.",
+    "rank_reason": "final 0.67, strongest on hook (0.82); from Episode 3, so a new viewer can keep watching straight away; first reveal promo in the list; check: slow_start, context_needed",
+    "scores": {
+      "hook": 0.825,
+      "cliffhanger": 0.464,
+      "standalone": 0.475,
+      "pacing": 0.762,
+      "length": 1.0,
+      "funnel": 0.017,
+      "penalty": 0,
+      "final": 0.666
+    },
+    "trope": "reveal",
+    "flags": [
+      "slow_start",
+      "context_needed"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 4,
+        "cliff": 3,
+        "standalone": 2
+      },
+      "rule_scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.38,
+        "standalone": 1.0
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E003-C02"
+  },
+  {
+    "promo_id": "P010",
+    "rank": 10,
+    "kind": "bridge",
+    "found_by": "rules",
+    "episodes": [
+      2,
+      3
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "01:19.20",
+        "end": "01:36.40",
+        "start_s": 79.2,
+        "end_s": 96.4,
+        "duration_s": 17.2,
+        "first_block": "E002-B034",
+        "last_block": "E002-B042"
+      },
+      {
+        "episode": 3,
+        "start": "00:00.00",
+        "end": "00:07.90",
+        "start_s": 0.0,
+        "end_s": 7.9,
+        "duration_s": 7.9,
+        "first_block": "E003-B001",
+        "last_block": "E003-B006"
+      }
+    ],
+    "duration_s": 25.1,
+    "hook": {
+      "block_id": "E002-B034",
+      "at": "01:19.20",
+      "onset_s": 0.0,
+      "text": "HOLLIS: \"Nobody leaves while we're live.\""
+    },
+    "cliffhanger": {
+      "block_id": "E003-B006",
+      "at": "00:06.30",
+      "text": "NORA: \"Who are you?\"",
+      "open_question": "Who is the woman at the door?",
+      "question_by": "model"
+    },
+    "why_it_works": "Starting with a smug villain and cutting to a terrified 'Who are you?' is disorienting for new viewers.",
+    "rank_reason": "final 0.54, strongest on hook (0.59); from Episode 2, so a new viewer can keep watching straight away; first rescue promo in the list; check: confusing, judge_disagrees",
+    "scores": {
+      "hook": 0.589,
+      "cliffhanger": 0.475,
+      "standalone": 0.21,
+      "pacing": 0.642,
+      "length": 1.0,
+      "funnel": 0.033,
+      "penalty": 0,
+      "final": 0.538
+    },
+    "trope": "rescue",
+    "flags": [
+      "confusing",
+      "judge_disagrees"
+    ],
+    "judge": "ollama:qwen3.5:4b",
+    "judge_detail": {
+      "model_scores": {
+        "hook": 3,
+        "cliff": 2,
+        "standalone": 1
+      },
+      "rule_scores": {
+        "hook": 0.798,
+        "cliffhanger": 1.0,
+        "standalone": 0.7
+      },
+      "unverified_quotes": [],
+      "quotes_outside_clip": []
+    },
+    "candidate_id": "E003-X01"
+  }
+]

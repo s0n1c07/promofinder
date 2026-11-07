@@ -1,0 +1,140 @@
+{
+  "montage_call": "montages 1: Episodes 1-4",
+  "judge": "ollama:qwen3.5:4b",
+  "prompt": "montage_v2",
+  "user_prompt": "BEATS (story order)\n\n== Episode 1 ==\nE001-B026 at 0:53.5 (opens 5/5) THE CALLER: The truth. Live. Tell them who you left on that bridge.\nE001-B039 at 1:22.8 (ends 5/5) [sound] A door buzzer sounds downstairs, and a hard cliffhanger sting cuts the hum dead.\n\n== Episode 2 ==\nE002-B003 at 0:03.0 (opens 5/5) [camera] Through the glass, Dev slams the side of the flickering security monitor.\nE002-B022 at 0:50.2 (ends 4/5) THE CALLER: He's lying, Nora. Ask him why he stopped driving after that night.\nE002-B032 at 1:16.6 (opens 4/5) [camera] Wide shot of the booth: Dev reaching for the door, Hollis blocking it.\nE002-B041 at 1:32.2 (ends 5/5) [sound] The synth climbs into a sharp cliffhanger sting.\n\n== Episode 3 ==\nE003-B008 at 0:08.8 (opens 4/5) [action] The woman lowers her hood; a pale scar runs along her jaw.\nE003-B019 at 0:42.8 (opens 4/5) [action] Nora shoves the booth door open.\nE003-B023 at 0:50.8 (opens 5/5) [action] Nora slaps Dev across the face.\nE003-B032 at 1:13.7 (ends 5/5) [camera] Extreme close-up on Hollis, his smile frozen.\n\n== Episode 4 ==\nE004-B004 at 0:03.7 (opens 4/5) NORA: The man who owns this station paid to bury a crash that nearly killed a girl. She is standing next to me.\nE004-B013 at 0:26.3 (ends 4/5) [camera] Close-up on Dev raising his hands.\nE004-B026 at 0:50.2 (ends 4/5) MAYA: But Nora, you need to know something. I didn't call you tonight.\nE004-B034 at 1:06.6 (ends 5/5) THE CALLER: Nice show, Nora. Now let's talk about what you did.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "montages": {
+        "type": "array",
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "properties": {
+            "beats": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "E001-B026",
+                  "E001-B039",
+                  "E002-B003",
+                  "E002-B022",
+                  "E002-B032",
+                  "E002-B041",
+                  "E003-B008",
+                  "E003-B019",
+                  "E003-B023",
+                  "E003-B032",
+                  "E004-B004",
+                  "E004-B013",
+                  "E004-B026",
+                  "E004-B034"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 3
+            },
+            "hook": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "question": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "cliff": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "standalone": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "trope": {
+              "type": "string",
+              "enum": [
+                "betrayal",
+                "reveal",
+                "rescue",
+                "cruelty",
+                "danger",
+                "romance",
+                "revenge",
+                "scheme"
+              ]
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "graphic",
+                  "spoiler",
+                  "confusing",
+                  "resolves_at_end",
+                  "context_needed"
+                ]
+              },
+              "maxItems": 5
+            },
+            "why": {
+              "type": "string",
+              "maxLength": 220
+            }
+          },
+          "required": [
+            "beats",
+            "hook",
+            "question",
+            "cliff",
+            "standalone",
+            "trope",
+            "flags",
+            "why"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "montages"
+    ],
+    "additionalProperties": false
+  },
+  "response_text": "{\n  \"montages\": [\n    {\n      \"beats\": [\"E004-B034\", \"E001-B026\"],\n      \"hook\": 5,\n      \"question\": \"What exactly did Nora do to the girl?\",\n      \"cliff\": 5,\n      \"standalone\": 3,\n      \"trope\": \"betrayal\",\n      \"flags\": [\"context_needed\", \"spoiler\"],\n      \"why\": \"Instant threat from Ep4 leads directly to the chilling demand in Ep1.\"\n    },\n    {\n      \"beats\": [\"E003-B023\", \"E002-B022\"],\n      \"hook\": 5,\n      \"question\": \"Why did Dev stop driving after that night?\",\n      \"cliff\": 4,\n      \"standalone\": 3,\n      \"trope\": \"revenge\",\n      \"flags\": [\"context_needed\"],\n      \"why\": \"The slap creates immediate conflict, followed by the caller's specific accusation.\"\n    },\n    {\n      \"beats\": [\"E001-B026\", \"E003-B032\"],\n      \"hook\": 5,\n      \"question\": \"Who is Hollis and why does he smile?\",\n      \"cliff\": 4,\n      \"standalone\": 2,\n      \"trope\": \"danger\",\n      \"flags\": [\"context_needed\"],\n      \"why\": \"The caller's threat sets up the terrifying reveal of Hollis's reaction.\"\n    }\n  ]\n}",
+  "usage": {
+    "montage_call": "montages 1: Episodes 1-4",
+    "ok": true,
+    "input_tokens": 1302,
+    "output_tokens": 358,
+    "seconds": 88.91,
+    "compute_seconds": 88.91,
+    "cached": false,
+    "finish": "stop",
+    "timing": {
+      "load_s": 0.01,
+      "prompt_s": 34.4,
+      "generate_s": 52.39
+    }
+  }
+}

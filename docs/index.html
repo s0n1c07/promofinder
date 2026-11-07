@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>promofinder demo</title>
+<meta name="description" content="Finds promo clips in timestamped microdrama screenplays and ranks which to post first. Demo on a made-up show.">
+<style>
+:root {
+  --bg: #f6f5f2; --panel: #ffffff; --ink: #1d1d1f; --muted: #5f6368; --line: #e3e1dc;
+  --accent: #b4235a; --accent-ink: #ffffff; --chip: #f0eee9; --focus: #2b59c3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141416; --panel: #1d1d20; --ink: #ececef; --muted: #a3a3ab; --line: #2e2e33;
+    --accent: #f06292; --accent-ink: #1b0a12; --chip: #2a2a2f; --focus: #8ab4f8;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+.eyebrow { color: var(--accent); font-weight: 650; letter-spacing: .04em; text-transform: uppercase; font-size: 13px; margin: 0 0 8px; }
+h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 0 0 14px; letter-spacing: -.01em; }
+.lead { font-size: 18px; color: var(--muted); margin: 0 0 28px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 36px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.btn { display: inline-block; padding: 11px 18px; border-radius: 10px; text-decoration: none; font-weight: 600;
+  border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn:hover { filter: brightness(1.05); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; margin: 0 0 18px; }
+.card h2 { font-size: 17px; margin: 0 0 8px; }
+.card p, .card ul { margin: 0 0 8px; }
+.card ul { padding-left: 20px; }
+.card li { margin: 0 0 6px; }
+.note { border-left: 4px solid var(--accent); }
+.links { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.links a { display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); background: var(--chip); height: 100%; }
+.links b { display: block; color: var(--accent); }
+.links span { color: var(--muted); font-size: 14px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 28px; }
+code { background: var(--chip); padding: 1px 5px; border-radius: 5px; font-size: .92em; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">promofinder · live demo</p>
+  <h1>Find the promos in a microdrama screenplay</h1>
+  <p class="lead">The tool reads timestamped screenplays and finds clips that work as ads: 20–60 seconds, a hook in the first 3 seconds, a cliffhanger at the end, and clear to someone who has never seen the show. Then it ranks which to post first.</p>
+
+  <div class="actions">
+    <a class="btn primary" href="viewer.html">Open the promo viewer</a>
+    <a class="btn" href="https://github.com/s0n1c07/promofinder">Code and run steps</a>
+  </div>
+
+  <section class="card note">
+    <h2>What you're looking at</h2>
+    <p><b>The show is made up.</b> <i>Night Line</i> is a 4-episode, 6-minute microdrama written for this demo, in the same screenplay format as the confidential 50-episode pack the tool was built on. That pack, and every result on it, stays private.</p>
+    <p>The viewer is the tool's unedited output on the demo, with a small local AI judge (qwen3.5 4B through Ollama, no API key). It shows the promos ranked, a posting plan, and a timed transcript of every part, with hook and cliffhanger marked. Approve or reject each promo and export your decisions as CSV.</p>
+    <p>The demo shows how the tool works. It is not evidence of quality, because the same person wrote the show and the tool. The quality checks were run on the real pack.</p>
+  </section>
+
+  <section class="card">
+    <h2>How it works</h2>
+    <ul>
+      <li><b>Code decides time; the model decides taste.</b> A parser gives every shot, action and spoken line an ID and exact times. Code lists every legal window and never cuts inside a spoken line.</li>
+      <li>The model rates candidates by naming block IDs only, so it can't invent a timestamp or a quote.</li>
+      <li>Eight hard checks gate every promo: length, hook timing, cliffhanger placement, parts, order, episode bounds, safe cuts and real IDs.</li>
+      <li>The ranking spreads promos across episodes and ends in a posting plan: premise first, then escalation, then payoffs.</li>
+    </ul>
+  </section>
+
+  <ul class="links">
+    <li><a href="https://github.com/s0n1c07/promofinder/blob/main/demo/outputs/run_ollama_qwen3.5_4b/promos_ranked.md"><b>Top 10, with reasons</b><span>hook, cliffhanger and why each ranks where it does</span></a></li>
+    <li><a href="https://github.com/s0n1c07/promofinder/blob/main/demo/outputs/run_ollama_qwen3.5_4b/qc_report.md"><b>Quality report</b><span>hard checks, model output and agreement on the demo</span></a></li>
+    <li><a href="https://github.com/s0n1c07/promofinder/tree/main/demo/Input"><b>The screenplays</b><span>the four made-up episodes the tool read</span></a></li>
+    <li><a href="https://github.com/s0n1c07/promofinder#readme"><b>README</b><span>how to run it on your own pack</span></a></li>
+  </ul>
+
+  <footer>Everything on this page and in the viewer is fictional. Built with Python and a local model; the viewer is a single static file.</footer>
+</main>
+</body>
+</html>

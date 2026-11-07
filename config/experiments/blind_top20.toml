@@ -1,0 +1,8 @@
+# Blind-viewer test on a run's top 20 only (no joined promos below it, no control sample).
+# Used for the rules-only run, to compare its top 20 with the AI judge's (eval/FINDINGS.md, M5).
+# Run: python -m promofinder qc outputs/run_offline --blind ollama:gemma3:4b
+#        --config config/experiments/blind_top20.toml
+[qc]
+blind_top = 20
+blind_control = 0
+blind_joined = false

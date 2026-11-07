@@ -1,0 +1,225 @@
+# Show-agnostic vocabulary for promo signals in microdrama screenplays (v1, hand-written).
+#
+# Matching is case-insensitive on whole words or phrases. A trailing * matches any ending:
+# "slap*" matches slap, slaps, slapped, slapping. `weight` (0-1) is how strongly a match in
+# that group counts. `kinds` (optional) limits a group to some block kinds. Nothing here
+# names a character, place or plot of a particular show.
+#
+# Precision audit (M2): every term was checked for how often it fires and on which block
+# kinds. Terms removed for firing on camera jargon or set dressing rather than drama:
+# altar, groom, beneath, framed, flames, poker (hook), grabs, revealing, crest, duchess,
+# duke, crown, royal, your grace, lips, intimate, doorway, silhouette, edge of, together,
+# home, finally, rest, sleep*, remember, crack* (matched a crackling fire).
+
+# ---------------------------------------------------------------- hooks (first 3 seconds)
+
+[hook.physical]   # sudden violence, or a body or object in violent motion
+weight = 1.0
+terms = [
+  "slap*", "smack*", "punch*", "strikes", "struck", "hits her", "hits him", "shove*", "throws",
+  "thrown", "hurls", "flings", "grabs her", "grabs him", "seizes", "seized", "yanks", "wrenches",
+  "drags", "dragged", "choke*", "strangl*", "stab*", "knife", "dagger", "blade", "sword", "sabre",
+  "saber", "pistol", "gun", "gunshot", "explosion", "explodes", "blast", "shatters", "shattered",
+  "smashes", "smashed", "slams", "collapses", "crumples", "faints", "falls to", "falls back",
+  "blood", "bleeding", "bloodied", "wounded", "ablaze", "inferno", "on fire", "sets fire",
+  "engulfed", "branding iron", "red-hot", "whip", "riding crop", "lashes", "chains", "chained",
+  "shackled", "manacled", "noose", "spits", "into the mud",
+]
+
+[hook.reveal]     # identity, truth or a secret coming out
+weight = 0.9
+terms = [
+  "reveals herself", "reveals himself", "is revealed", "unmask*", "true identity", "recognizes",
+  "recognises", "alive", "presumed dead", "back from the dead", "who are you", "it was you",
+  "you knew", "you lied", "the truth", "secret", "confess*", "imposter", "impostor", "pregnant",
+  "proof", "evidence", "rightful", "heir", "died",
+]
+
+[hook.humiliation] # betrayal, public shaming, cruelty in words
+weight = 0.85
+terms = [
+  "marrying", "marry", "married", "bride", "fiancé", "fiance", "betray*", "abandon*", "jilt*",
+  "disown*", "disinherit*", "cast out", "cast aside", "stripped of", "humiliat*", "mock*",
+  "laughs at", "laughing at", "worthless", "nothing to offer", "beneath you", "beneath me",
+  "pathetic", "plain", "low value", "tolerate", "embarrass*", "affair", "mistress", "cheat*",
+  "liar", "traitor", "framed for", "frame her for", "frame you for", "accus*", "scrub", "servant",
+  "beggar", "filth", "trash", "nobody",
+]
+
+[hook.threat]     # danger to life, freedom or name; spoken or acted, not set dressing
+weight = 0.85
+kinds = ["DIALOGUE", "ACTION", "SOUND_FX"]
+terms = [
+  "kill", "killed", "murder*", "die", "death", "execute", "execution", "hang", "hanged",
+  "gallows", "burn", "witch*", "dungeon", "prison", "gaol", "arrest*", "guards", "poison*",
+  "arsenic", "you will pay", "destroy", "ruin", "or else", "or watch", "unless", "before dawn",
+  "sentence*", "torture*",
+]
+
+[hook.power]      # status reversal: kneeling, bowing, open defiance of authority
+weight = 0.75
+terms = [
+  "kneel*", "on her knees", "on his knees", "drops to one knee", "bows", "bowed", "bow before",
+  "salute*", "inheritance", "obey", "how dare you", "do you know who", "stand aside",
+]
+
+[hook.romance]
+weight = 0.6
+terms = [
+  "kiss*", "marry me", "will you marry", "propos*", "my wife", "my husband", "i love you",
+  "love you", "embrace*",
+]
+
+# ---------------------------------------------------------------- cliffhangers (the cut)
+
+[cliff.threat]    # a threat or deadline not yet carried out
+weight = 0.9
+terms = [
+  "or watch", "or else", "unless", "will hang", "will burn", "will die", "before dawn", "by dawn",
+  "by morning", "tonight", "tomorrow", "execution", "gallows", "you will pay", "you'll pay", "this isn't over",
+  "this is not over", "you'll regret", "you will regret", "we settle", "i will destroy",
+  "i'll destroy", "sentenced", "verdict", "last chance",
+]
+
+[cliff.arrival]   # someone or something interrupts
+weight = 0.9
+terms = [
+  "door swings open", "door opens", "door bursts", "bursts in", "bursts open", "storms in",
+  "storm in", "barges in", "walks in", "steps in", "steps inside", "footsteps", "enters", "arrives",
+  "appears in the doorway",
+  "turns to see", "intruder", "knock*", "latch", "interrupt*", "who's there", "who is there",
+]
+
+[cliff.revelation] # a question or realisation left hanging
+weight = 0.8
+terms = [
+  "realiz*", "recogni*", "who are you", "what have you done", "how could you", "it can't be",
+  "it cannot be", "impossible", "it was you", "you knew", "what do you mean",
+]
+
+[cliff.danger]    # peril in progress
+weight = 0.8
+terms = [
+  "inches from", "raises the", "lunges", "aims", "draws his sword", "draws a blade",
+  "draws a knife", "trapped", "smoke", "dying", "gasping for", "unconscious", "about to", "looms",
+  "towers over", "cornered", "closes in",
+]
+
+[cliff.explicit]  # the script itself marks the beat as a cliffhanger or sting
+weight = 1.0
+terms = [
+  "cliffhanger", "cut to black", "smash cut", "freeze frame", "freezes", "sting", "stinger",
+  "ominous", "hangs in the air", "unresolved", "abrupt", "to be continued", "holds on",
+]
+
+# ---------------------------------------------------------------- endings that release tension
+
+[resolution]
+weight = 1.0
+terms = [
+  "relief", "relieved", "warm smile", "smiles warmly", "smiles softly", "gentle smile",
+  "relieved smile", "laughs together", "embrace*", "hug*", "safe now", "you're safe",
+  "you are safe", "thank you", "grateful", "gratitude", "peace", "peaceful", "sighs", "exhales",
+  "warmth", "comfort*", "forgive*", "it's over", "it is over", "tender*", "content",
+  "into the light", "walk away together", "walks away together", "together at last",
+  "hand in hand",
+]
+
+# ---------------------------------------------------------------- things a stranger can't know
+# Spoken lines only: a viewer hears dialogue but never reads the screenplay's descriptions.
+
+[context_debt]
+weight = 1.0
+kinds = ["DIALOGUE"]
+terms = [
+  "the ring", "the ledger", "the book", "the journal", "the grimoire", "the herbarium",
+  "the letter", "the documents", "the antidote", "the remedy", "the potion", "the will",
+  "the necklace", "the pendant", "the key", "the seal", "the watch", "the signet",
+  "your mother's", "my mother's", "her mother's", "his mother's", "the deal", "our deal",
+  "the plan", "as we agreed", "as planned", "after what you did", "after everything",
+  "you promised",
+]
+
+# ---------------------------------------------------------------- flags (not scores)
+
+[graphic]         # may need a platform-policy check before posting
+weight = 1.0
+terms = [
+  "branding iron", "red-hot", "poker", "blood", "bleeding", "bloodied", "lacerat*", "torture*",
+  "choke*", "strangl*", "noose", "stab*", "wound*", "gash*", "scorch*", "searing", "gore",
+  "corpse",
+]
+
+# ---------------------------------------------------------------- delivery tags on dialogue
+
+[delivery.high]
+weight = 1.0
+terms = [
+  "scream*", "shout*", "shriek*", "yell*", "roar*", "bellow*", "furious*", "enraged", "livid",
+  "seething", "hysteric*", "unhinged", "frantic*", "panic*", "terrified", "horrified", "outraged",
+  "sobbing", "wailing", "agoniz*", "anguish*", "choking", "gasping", "crying out", "desperate*",
+  "explosive", "venomous", "vicious*", "savage*", "murderous", "shocked", "stunned", "frenzied",
+]
+
+[delivery.medium]
+weight = 0.6
+terms = [
+  "cruel*", "mocking*", "taunting", "smug*", "gloating", "cold*", "icy", "menacing*",
+  "threatening*", "sinister", "chilling*", "scornful*", "contemptuous*", "sneering", "spiteful*",
+  "bitter*", "accusing", "accusatory", "trembling", "shaking", "pleading", "begging", "defiant*",
+  "fierce*", "commanding", "stern*", "harsh*", "sharp*", "steely", "condescending*",
+  "dismissive*", "arrogant*", "disgusted", "incredulous*", "heartbroken", "tearful*", "weeping",
+  "crying", "broken", "raw", "shaken", "urgent*", "breathless*", "dangerous*", "deadly",
+  "ruthless*", "callous*", "vengeful", "grim*", "betrayed", "piercing", "devastated",
+  "malicious*", "triumphant*", "victorious", "imperious*", "haughty", "blunt", "unforgiving",
+  "venom*", "lethal", "hostile",
+]
+
+[delivery.soft]   # counts only when the tag has no high or medium word ("Viciously Calm" is not soft)
+weight = 1.0
+terms = [
+  "soft*", "gentle", "gently", "tender*", "warm*", "calm*", "reassuring*", "loving*", "relieved",
+  "content*", "peaceful*", "kind*", "amused", "playful*", "joyful*", "happy", "grateful*",
+  "sincere*", "earnest*", "smiling", "laughing", "affectionate*", "fond*", "hopeful*", "comforting",
+]
+
+# ---------------------------------------------------------------- camera and sound emphasis
+
+[camera.emphasis]
+weight = 1.0
+kinds = ["CAMERA"]
+terms = [
+  "extreme close-up", "extreme close up", "macro", "crash zoom", "snap zoom", "whip pan",
+  "slow motion", "slow-motion", "freeze frame", "dutch", "rack focus", "insert", "push-in",
+  "pushing in", "push in",
+]
+
+[sfx.hit]
+weight = 1.0
+kinds = ["SOUND_FX"]
+terms = [
+  "slap", "smack", "crack", "cracks", "whip crack", "thud", "crash*", "shatter*", "explosion",
+  "boom*", "gunshot", "scream*", "gasp*", "sting", "stinger", "whoosh", "impact", "thunder*",
+  "bang", "slam*", "clang",
+]
+
+[sfx.tension]
+weight = 1.0
+kinds = ["SOUND_FX"]
+terms = [
+  "ominous", "tension", "tense", "swell*", "drone", "rumble*", "sting", "cliffhanger", "heartbeat",
+  "silence", "dread", "suspense*", "eerie", "foreboding", "pulse", "cello", "low strings",
+  "dissonant",
+]
+
+# ---------------------------------------------------------------- reply openers
+# A clip whose first line starts with one of these probably joins a conversation midway.
+# Matched only at the start of a line.
+
+[openers]
+weight = 1.0
+kinds = ["DIALOGUE"]
+terms = [
+  "yes", "no", "because", "and", "but", "so", "then", "of course", "exactly", "indeed", "not",
+  "nor", "well", "too", "neither", "still", "anyway", "fine",
+]
