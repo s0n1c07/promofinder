@@ -149,6 +149,19 @@ def test_posting_plan_puts_the_premise_first_and_spoilers_last(cfg):
     assert [[p["rank"] for p in tier] for _, tier in plan] == [[4, 5, 6], [3], [1, 2]]
     assert [name.split(":")[0] for name, _ in plan] == ["Cold audiences", "Escalation (Episodes 6–35, no spoilers)",
                                                         "Re-engage viewers who started"]
+    assert plan[0][0].endswith("(Episodes 1–5, no spoilers)") and "(Episodes 36–50, or a spoiler flag)" in plan[2][0]
+
+
+def test_posting_plan_names_real_ranges_for_a_short_show(cfg):
+    from promofinder.rank import posting_plan
+
+    promos = [{"rank": i, "segments": [{"episode": e}], "flags": []} for i, e in enumerate([1, 3, 4], 1)]
+    plan = posting_plan(promos, 4, cfg)                         # 4 episodes: the last one is the payoff tier
+    assert [name for name, _ in plan] == [
+        "Cold audiences: the premise (Episodes 1–3, no spoilers)",
+        "Escalation (none: the show is too short for a middle stretch)",
+        "Re-engage viewers who started: late payoffs and spoilers (Episode 4, or a spoiler flag)"]
+    assert [[p["rank"] for p in tier] for _, tier in plan] == [[1, 2], [], [3]]
 
 
 def test_offline_judge_reports_rule_scores(ep, lex, cfg):

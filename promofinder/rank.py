@@ -102,15 +102,22 @@ def posting_plan(promos: list[dict], n_episodes: int, cfg: dict) -> list[tuple[s
     promos by rank. Show-agnostic: tiers come from episode position and the spoiler flag only."""
     r = cfg["rank"]
     late_from = n_episodes - round(n_episodes * r["payoff_share"]) + 1
+    premise_to = min(r["premise_episodes"], late_from - 1)  # a short show has no room for all three tiers
 
     def tier(p: dict) -> int:
         first = p["segments"][0]["episode"]
         if "spoiler" in p["flags"] or first >= late_from:
             return 2
-        return 0 if first <= r["premise_episodes"] else 1
+        return 0 if first <= premise_to else 1
 
-    names = [f"Cold audiences: the premise (Episodes 1–{r['premise_episodes']}, no spoilers)",
-             f"Escalation (Episodes {r['premise_episodes'] + 1}–{late_from - 1}, no spoilers)",
-             f"Re-engage viewers who started: late payoffs and spoilers (Episodes {late_from}–{n_episodes}, "
-             f"or a spoiler flag)"]
+    premise, middle, late = _span(1, premise_to), _span(premise_to + 1, late_from - 1), _span(late_from, n_episodes)
+    names = [f"Cold audiences: the premise ({premise or 'no episodes'}, no spoilers)",
+             f"Escalation ({middle}, no spoilers)" if middle else "Escalation (none: the show is too short for a middle stretch)",
+             f"Re-engage viewers who started: late payoffs and spoilers ({late + ', or ' if late else ''}a spoiler flag)"]
     return [(name, [p for p in promos if tier(p) == i][: r["plan_per_tier"]]) for i, name in enumerate(names)]
+
+
+def _span(first: int, last: int) -> str | None:
+    if first > last:
+        return None
+    return f"Episode {first}" if first == last else f"Episodes {first}–{last}"

@@ -127,9 +127,9 @@
     "ok": true,
     "input_tokens": 1302,
     "output_tokens": 358,
-    "seconds": 88.91,
+    "seconds": 0.0,
     "compute_seconds": 88.91,
-    "cached": false,
+    "cached": true,
     "finish": "stop",
     "timing": {
       "load_s": 0.01,

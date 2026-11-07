@@ -80,17 +80,17 @@
 
 The same promos grouped by audience, in the order to post them. Numbers are ranks.
 
-**1. Cold audiences: the premise (Episodes 1–5, no spoilers)**
+**1. Cold audiences: the premise (Episodes 1–3, no spoilers)**
 
 - #1 · Ep 3 00:06.00–00:16.90 + Ep 3 01:04.00–01:15.50 · NORA: "Who are you?"
 - #2 · Ep 1 00:53.20–01:25.80 · THE CALLER: "The truth. Live. Tell them who you left on that bridge."
 - #4 · Ep 2 00:03.00–00:58.30 · (action) Dev slams the side of the security monitor.
 
-**2. Escalation (Episodes 6–3, no spoilers)**
+**2. Escalation (none: the show is too short for a middle stretch)**
 
 - (none)
 
-**3. Re-engage viewers who started: late payoffs and spoilers (Episodes 4–4, or a spoiler flag)**
+**3. Re-engage viewers who started: late payoffs and spoilers (Episode 4, or a spoiler flag)**
 
 - #3 · Ep 4 00:19.50–01:16.40 · OFFICER REYES: "Harbor Police! Nobody move!"
 

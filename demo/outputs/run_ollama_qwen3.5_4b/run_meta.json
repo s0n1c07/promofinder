@@ -31,7 +31,7 @@
   "top_n": 10,
   "cost": {
     "llm_calls": 5,
-    "cache_hits": 0,
+    "cache_hits": 5,
     "input_tokens": 10773,
     "output_tokens": 1887,
     "usd": 0.0,
@@ -144,7 +144,7 @@
   },
   "posting_plan": [
     {
-      "tier": "Cold audiences: the premise (Episodes 1–5, no spoilers)",
+      "tier": "Cold audiences: the premise (Episodes 1–3, no spoilers)",
       "promo_ids": [
         "P001",
         "P002",
@@ -152,21 +152,21 @@
       ]
     },
     {
-      "tier": "Escalation (Episodes 6–3, no spoilers)",
+      "tier": "Escalation (none: the show is too short for a middle stretch)",
       "promo_ids": []
     },
     {
-      "tier": "Re-engage viewers who started: late payoffs and spoilers (Episodes 4–4, or a spoiler flag)",
+      "tier": "Re-engage viewers who started: late payoffs and spoilers (Episode 4, or a spoiler flag)",
       "promo_ids": [
         "P006"
       ]
     }
   ],
   "timings_s": {
-    "parse": 4.471,
-    "candidates": 0.043,
-    "judge": 543.043,
-    "check_and_rank": 0.002,
-    "export": 0.017
+    "parse": 4.307,
+    "candidates": 0.032,
+    "judge": 0.07,
+    "check_and_rank": 0.001,
+    "export": 0.008
   }
 }

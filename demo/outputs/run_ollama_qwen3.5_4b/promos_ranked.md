@@ -100,17 +100,17 @@ How to read this: hook and cliffhanger text is copied from the script by block I
 
 The same promos grouped by audience, in the order to post them. Numbers are ranks.
 
-**1. Cold audiences: the premise (Episodes 1–5, no spoilers)**
+**1. Cold audiences: the premise (Episodes 1–3, no spoilers)**
 
 - #1 · Ep 1 00:53.20–01:25.80 · THE CALLER: "The truth. Live. Tell them who you left on that bridge."
 - #2 · Ep 3 00:50.50–01:15.50 · (action) Nora slaps Dev across the face.
 - #3 · Ep 2 00:03.00–00:13.30 + Ep 2 01:24.90–01:34.70 · (camera) Through the glass, Dev slams the side of the flickering security monitor.
 
-**2. Escalation (Episodes 6–3, no spoilers)**
+**2. Escalation (none: the show is too short for a middle stretch)**
 
 - (none)
 
-**3. Re-engage viewers who started: late payoffs and spoilers (Episodes 4–4, or a spoiler flag)**
+**3. Re-engage viewers who started: late payoffs and spoilers (Episode 4, or a spoiler flag)**
 
 - #6 · Ep 4 00:03.40–00:26.60 · NORA: "The man who owns this station paid to bury a crash that nearly killed a girl. She is standin…
 

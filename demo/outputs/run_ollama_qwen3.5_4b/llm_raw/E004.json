@@ -500,9 +500,9 @@
     "ok": true,
     "input_tokens": 2163,
     "output_tokens": 368,
-    "seconds": 113.63,
+    "seconds": 0.0,
     "compute_seconds": 113.63,
-    "cached": false,
+    "cached": true,
     "finish": "stop",
     "timing": {
       "load_s": 0.01,

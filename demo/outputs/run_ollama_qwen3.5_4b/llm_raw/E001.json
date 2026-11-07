@@ -302,9 +302,9 @@
     "ok": true,
     "input_tokens": 2112,
     "output_tokens": 151,
-    "seconds": 54.89,
+    "seconds": 0.0,
     "compute_seconds": 54.89,
-    "cached": false,
+    "cached": true,
     "finish": "stop",
     "timing": {
       "load_s": 0.01,
