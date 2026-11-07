@@ -141,7 +141,8 @@ def main(argv: list[str] | None = None) -> int:
         if pack.names else re.compile(r"(?!x)x")
     pack_dir = Path(args.pack).resolve()
     files = [Path(f).resolve() for f in args.files] if args.files else public_files()
-    files = [f for f in files if pack_dir not in f.parents]
+    pack_files = {p.resolve() for p in episode_files(pack_dir)}
+    files = [f for f in files if f not in pack_files]  # the pack itself; a note beside it is still checked
 
     failed = 0
     for f in sorted(files):
